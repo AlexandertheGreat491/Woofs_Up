@@ -1,7 +1,10 @@
 //import logo from './logo.svg';
+// import components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+// import pages
+import NoMatch from "./pages/NoMatch";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -14,7 +17,10 @@ function App() {
         <Header></Header>
         <Nav></Nav>
         <Routes>
-          
+          <Route
+          path="*"
+          element={<NoMatch/>}
+          />
         </Routes>
       </div>
       <div>
