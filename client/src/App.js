@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 // import pages
 import NoMatch from "./pages/NoMatch";
+import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -17,6 +18,10 @@ function App() {
         <Header></Header>
         <Nav></Nav>
         <Routes>
+        <Route
+            path="/"
+            element={<Home />}
+          />
           <Route
           path="*"
           element={<NoMatch/>}
