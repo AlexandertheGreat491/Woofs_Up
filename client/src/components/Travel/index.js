@@ -8,6 +8,7 @@ const Travel = () => {
     email: "",
     message: "",
   });
+
   const [errorMessage, setErrorMessage] = useState("");
   const { name, email, message } = formState;
   const handleSubmit = (e) => {
@@ -17,6 +18,7 @@ const Travel = () => {
       console.log("Form", formState);
     }
   };
+
   const handleChange = (e) => {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
@@ -33,6 +35,7 @@ const Travel = () => {
       }
     }
   };
+  
   return (
     <section>
       <h1>Contact Me</h1>
