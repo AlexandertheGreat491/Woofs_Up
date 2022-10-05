@@ -1,0 +1,19 @@
+{
+  "name": "woofs_up",
+  "version": "1.0.0",
+  "description": "[react-google-forms-hooks](https://www.npmjs.com/package/react-google-forms-hooks)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandertheGreat491/Woofs_Up.git"
+  },
+  "author": "Alex Van Dyke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexandertheGreat491/Woofs_Up/issues"
+  },
+  "homepage": "https://github.com/AlexandertheGreat491/Woofs_Up#readme"
+}
