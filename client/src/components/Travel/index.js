@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import { FaDog } from "react-icons/fa";
 
 // Travel function to get return statement
 const Travel = () => {
@@ -38,7 +39,7 @@ const Travel = () => {
 
   return (
     <section>
-      <h1>Contact Me</h1>
+      <h1><FaDog/>Barks and Travel</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
