@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import { validateEmail } from "../../utils/helpers";
 import { FaDog } from "react-icons/fa";
 
@@ -39,7 +40,10 @@ const Travel = () => {
 
   return (
     <section>
-      <h1><FaDog/>Barks and Travel</h1>
+      <h1>
+        <FaDog />
+        Barks and Travel
+      </h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -85,8 +89,16 @@ const Travel = () => {
           <input type="radio" name="no" value="No"></input>
           <label for="no">No</label>
           <br></br>
-          <p>What is your preferred airline? If you do not have a preferred airline simply put N/A</p>
-          <input type="submit" name="submit" value="submit" placeholder="Enter your preffered airline"></input>
+          <p>
+            What is your preferred airline? If you do not have a preferred
+            airline simply put N/A
+          </p>
+          <input
+            type="submit"
+            name="submit"
+            value="submit"
+            placeholder="Enter your preffered airline"
+          ></input>
           <label></label>
           <label for="submit">Submit</label>
         </div>
