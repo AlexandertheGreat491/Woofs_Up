@@ -15,7 +15,7 @@ const TravelForm = () => {
   const onSubmit = (e) => {
     e.preventDefault();
 
-    send("SERVICE ID", "TEMPLATE ID", toSend, "User ID")
+    send("service_8wr5jg6", "template_mqigr1p", toSend, "VAttkBUX6Azj6oY7o")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
@@ -30,10 +30,6 @@ const TravelForm = () => {
 
   return (
     <section>
-      <h1>
-        <FaDog />
-        Barks and Travel
-      </h1>
       <form onSubmit={onSubmit}>
       <h1>
         <FaDog />
@@ -45,6 +41,7 @@ const TravelForm = () => {
           placeholder="from name"
           value={toSend.from_name}
           onChange={handleChange}
+          required
         />
         <input
           type="text"
@@ -52,6 +49,7 @@ const TravelForm = () => {
           placeholder="to name"
           value={toSend.to_name}
           onChange={handleChange}
+          required
         />
         <input
           type="text"
