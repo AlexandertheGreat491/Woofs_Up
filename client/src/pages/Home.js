@@ -1,12 +1,12 @@
-import React from 'react';
-import Travel from "../components/Travel";
+// import React from 'react';
+// import Header from "../components/Header";
 
-const Home = () => {
-    return (
-        <div>
-            <Travel />
-        </div>
-    );
-};
+// const Home = () => {
+//     return (
+//         <div>
+//             <Header />
+//         </div>
+//     );
+// };
 
-export default Home;
+// export default Home;

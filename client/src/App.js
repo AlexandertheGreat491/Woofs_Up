@@ -1,26 +1,38 @@
+import React, {useState} from "react";
 //import logo from './logo.svg';
 // import components
-import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Nav from "./components/Nav";
-// import pages
+import Header from "./components/Header";
+// imports pages
 import NoMatch from "./pages/NoMatch";
 import Home from './pages/Home';
+import LoginForm from './pages/LoginForm';
+import SignUpForm from './pages/SignUpForm';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
 function App() {
+  const [options] = useState([{name: "Travel"}]);
+  const [currentOption, setOption] = useState(options[0]);
+
   return (
     <Router>
     <div>
+      <Header
+      options={options}
+      setOption={setOption}
+      currentOption={currentOption}
+      />
       <div>
-        <Header></Header>
-        <Nav></Nav>
         <Routes>
         <Route
             path="/"
-            element={<Home />}
+            element={<Home
+            options={options}
+            setOption={setOption}
+            currentOption={currentOption}
+               />}
           />
           <Route
           path="*"
