@@ -6,7 +6,7 @@ import React, { useState } from "react";
 //import { ADD_USER } from "../utils/mutations";
 
 // imports the auth logic
-import Auth from "../utils/auth";
+//import Auth from "../utils/auth";
 
 const SignUpForm = () => {
   // sets the initial form state
