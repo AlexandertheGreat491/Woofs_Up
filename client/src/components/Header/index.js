@@ -8,12 +8,12 @@ function Header(props) {
   const logout = (event) => {
     event.preventDefault();
     Auth.logout();
-  }
+  };
 
   return (
     <header className="container">
       <h1>Woof's Up!</h1>
-      
+
       <div>
         <nav>
           {Auth.loggedIn() ? (
@@ -30,6 +30,7 @@ function Header(props) {
             </>
           ) : (
             <>
+              <Link to="/about">About</Link>
               <Link className="m-3 p-1 buttons" to="/login">
                 Login
               </Link>
@@ -37,6 +38,7 @@ function Header(props) {
                 Signup
               </Link>
               <Link to="/travel">Travel</Link>
+              <Link to="/about">About</Link>
             </>
           )}
         </nav>
