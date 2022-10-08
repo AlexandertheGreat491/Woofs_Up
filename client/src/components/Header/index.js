@@ -38,7 +38,6 @@ function Header(props) {
                 Signup
               </Link>
               <Link to="/travel">Travel</Link>
-              <Link to="/about">About</Link>
             </>
           )}
         </nav>
