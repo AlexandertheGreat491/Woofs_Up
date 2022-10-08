@@ -31,10 +31,10 @@ function Header(props) {
           ) : (
             <>
               <Link to="/about">About</Link>
-              <Link className="m-3 p-1 buttons" to="/login">
+              <Link to="/login">
                 Login
               </Link>
-              <Link className="p-1 buttons" to="/signup">
+              <Link  to="/signup">
                 Signup
               </Link>
               <Link to="/travel">Travel</Link>
