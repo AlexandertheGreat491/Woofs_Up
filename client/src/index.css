@@ -1,14 +1,18 @@
 /*color pallat taken from https://coolors.co/2d3047-93b7be-e0ca3c-a799b7-048a81 */
+/* Universal styling */
 :root {
   --primary: #2d3047ff; /*space-cadet*/
   --secondary: #93b7beff; /*pewter-blue */
   --tertiary: #e0ca3cff; /*citrine */
-  --tertiary: #a799b7ff; /*glossy-grape*/
+  --quarternary: #a799b7ff; /*glossy-grape*/
   --background: #048a81ff; /*celadon-green */
 }
 
 * {
   font-family: 'Montserrat', sans-serif;
+}
+
+html {
   background-color: var(--background);
 }
 
@@ -26,6 +30,77 @@ code {
     monospace;
 }
 
+
+/* header styling */
 h1, h2, h4 {
   color: var(--tertiary);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+/* nav styling */
+.navlinks {
+  color: var(--primary);
+  background-color: var(--quarternary);
+  margin: 0.3125em;
+  align-items: center;
+}
+
+header {
+  background-color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+header h1 {
+  background-color: var(--secondary);
+  text-decoration: underline;
+  margin-left: 40px;
+}
+
+nav {
+  margin-top: 15px;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  border: 0.3125em groove var(--quarternary);
+  border-radius: 4px;
+}
+
+nav a:hover {
+  color: var(--tertiary);
+}
+
+/* footer styling */
+footer {
+  color: var(--quarternary);
+  font-size: 0.875em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+} 
+
+footer a {
+  color: var(--quarternary);
+  padding: 0.625em;
 }

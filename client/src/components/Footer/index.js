@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer>
       <div>
-      <a href="https://github.com/AlexandertheGreat491">
+      <a style={{width: '20%', height: '20%'}} href="https://github.com/AlexandertheGreat491">
         <FaGithub />
       </a>
-      <span>&copy; 2022 Alexander Van Dyke</span>
+      <span className="p-2">&copy; 2022 Alexander Van Dyke</span>
       </div>
     </footer>
   );

@@ -9,7 +9,7 @@ function About() {
       <section>
         <div>
           <h2>About Woofs Up</h2>
-          <img src={drinkingHorse} alt="drinking horse" />
+          <img style={{width: '20%', height: '20%'}} src={drinkingHorse} alt="drinking horse" />
           <div>
             <p>
               In March 2022, I took trip to Big Sky, Montana to do some skiing
