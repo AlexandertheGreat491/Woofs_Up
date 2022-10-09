@@ -45,11 +45,7 @@ const LoginForm = (props) => {
   return (
     <main className="d-flex flex-row justify-content-center">
       <div id="login" className="card m-5">
-        <h4
-          id="login-text"
-          style={{ color: "brown" }}
-          className="card-header"
-        >
+        <h4 id="login-text" style={{ color: "brown" }} className="card-header">
           Login
         </h4>
         <div className="card-body">
