@@ -31,10 +31,10 @@ const TravelForm = () => {
   return (
     <section>
       <form onSubmit={onSubmit}>
-      <h1>
+      <h2>
         <FaDog />
         Barks and Travel
-      </h1>
+      </h2>
         <input
           type="text"
           name="from_name"
