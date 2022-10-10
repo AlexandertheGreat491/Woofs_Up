@@ -59,6 +59,7 @@ h4 {
 
 header {
   background-color: var(--secondary);
+  border: 0.3125em groove var(--primary);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
