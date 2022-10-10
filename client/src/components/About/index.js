@@ -5,17 +5,15 @@ import drinkingHorse from "../../assets/images/drinking_horse.jpg";
 
 function About() {
   return (
-    <article>
-      <section>
-        <div>
-          <h2>About Woofs Up</h2>
+        <div style={{width:'100%'}} id="about" className="about card">
+          <h2 className="ms-2">About Woofs Up</h2>
           <img
             style={{ width: "20%", height: "20%" }}
             src={drinkingHorse}
             alt="drinking horse"
+            className="mb-1 ms-2"
           />
-          <div>
-            <p>
+            <p id="bio">
               In March 2022, I took trip to Big Sky, Montana to do some skiing
               and hiking. In order to make this trip, I had to board my
               miniature schnauzer, Winston. I thouroughly enjoyed my time in the
@@ -28,9 +26,6 @@ function About() {
               and more realistic for dog owners to travel with their dogs.
             </p>
           </div>
-        </div>
-      </section>
-    </article>
   );
 }
 
