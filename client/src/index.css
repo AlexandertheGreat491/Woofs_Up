@@ -91,8 +91,9 @@ nav a:hover {
 /* footer styling */
 footer {
   color: var(--quarternary);
+  background-color: var(--secondary);
   font-size: 0.875em;
-  font-weight: 500;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   position: fixed;
