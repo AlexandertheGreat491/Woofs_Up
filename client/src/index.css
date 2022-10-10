@@ -1,11 +1,16 @@
 /*color pallat taken from https://coolors.co/2d3047-93b7be-e0ca3c-a799b7-048a81 */
 /* Universal styling */
 :root {
-  --primary: #2d3047ff; /*space-cadet*/
-  --secondary: #93b7beff; /*pewter-blue */
-  --tertiary: #e0ca3cff; /*citrine */
-  --quarternary: #a799b7ff; /*glossy-grape*/
-  --background: #048a81ff; /*celadon-green */
+  --primary: #2d3047ff;
+  /*space-cadet*/
+  --secondary: #93b7beff;
+  /*pewter-blue */
+  --tertiary: #e0ca3cff;
+  /*citrine */
+  --quarternary: #a799b7ff;
+  /*glossy-grape*/
+  --background: #048a81ff;
+  /*celadon-green */
 }
 
 * {
@@ -32,7 +37,9 @@ code {
 
 
 /* header styling */
-h1, h2, h4 {
+h1,
+h2,
+h4 {
   color: var(--tertiary);
   font-weight: 700;
 }
@@ -88,6 +95,7 @@ nav a:hover {
   color: var(--tertiary);
 }
 
+/* About component styling */
 #bio {
   font-size: 13px;
   margin-left: 26.5625em;
@@ -98,6 +106,32 @@ nav a:hover {
 
 #about {
   background-color: var(--quarternary);
+}
+
+/* LoginForm page styling */
+#login {
+  width: 300px;
+  justify-content: center;
+  background-color: var(--quarternary);
+}
+
+#login-text {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: var(--tertiary);
+}
+
+#loginmain {
+  background-color: var(--background);
+}
+
+#submit {
+  border: 0.25em groove var(--primary);
+  font-size: 13.5px;
+}
+
+#submit:hover {
+  color: var(--tertiary);
 }
 
 /* footer styling */
@@ -112,7 +146,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-} 
+}
 
 footer a {
   color: var(--quarternary);
