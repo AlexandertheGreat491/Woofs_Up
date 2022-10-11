@@ -29,12 +29,13 @@ const TravelForm = () => {
   };
 
   return (
-    <section>
-      <form onSubmit={onSubmit}>
-        <h2>
-          <FaDog />
+       <section id="form">
+      <form id="travelform" className="mt-1 mb-1 travel card d-inline-flex" onSubmit={onSubmit}>
+        <h2 id="bark" className="m-1 card-header">
+          <FaDog className="me-1"/>
           Barks and Travel
         </h2>
+        <label id="from" htmlFor="from_name">From:</label>
         <input
           type="text"
           name="from_name"
@@ -43,6 +44,7 @@ const TravelForm = () => {
           onChange={handleChange}
           required
         />
+        <label id="to" htmlFor="to_name">To:</label>
         <input
           type="text"
           name="to_name"
@@ -51,6 +53,7 @@ const TravelForm = () => {
           onChange={handleChange}
           required
         />
+        <label id="message" htmlFor="message">Message:</label>
         <input
           type="text"
           name="message"
@@ -58,6 +61,7 @@ const TravelForm = () => {
           value={toSend.message}
           onChange={handleChange}
         />
+        <label id="email" htmlFor="reply_to">Email:</label>
         <input
           type="text"
           name="reply_to"
@@ -65,9 +69,9 @@ const TravelForm = () => {
           value={toSend.reply_to}
           onChange={handleChange}
         />
-        <button type="submit">Submit</button>
+        <button className="m-2" id="travelsubmit" type="submit">Submit</button>
       </form>
-    </section>
+      </section>
   );
 };
 

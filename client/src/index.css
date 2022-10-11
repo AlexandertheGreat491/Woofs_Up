@@ -109,7 +109,8 @@ nav a:hover {
 }
 
 /* LoginForm page styling */
-#login, #signup {
+#login,
+#signup {
   width: 300px;
   justify-content: center;
   background-color: var(--quarternary);
@@ -136,6 +137,7 @@ nav a:hover {
   color: var(--tertiary);
 }
 
+/* signup styling */
 #signheader {
   font-size: 1.25em;
   font-weight: 700;
@@ -143,6 +145,73 @@ nav a:hover {
 }
 
 .sign {
+  background-color: var(--quarternary);
+}
+
+/* travel form styling */
+.travel { 
+  margin-left: 550px;
+}
+
+#travelform {
+  border: 0.1875em groove var(--primary);
+  border-radius: 4px;
+  background-color: var(--quarternary);
+  color: var(--tertiary);
+}
+
+#bark {
+  font-size: 2.1875em;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--quarternary);
+  color: var(--tertiary);
+}
+
+#from {
+  color: var(--tertiary);
+  margin-right: 0.625em;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+#to {
+  color: var(--tertiary);
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+#message {
+  color: var(--tertiary);
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+#email {
+  color: var(--tertiary);
+  margin-right: 0.625em;
+  margin-left: 0.3125em;
+  font-size: 0.9375em;
+  font-weight: 500;
+}
+
+#travelsubmit {
+  border: 0.1875em groove var(--primary);
+  border-radius: 4px;
+  background-color: var(--quarternary);
+  font-size: 13.5px;
+}
+
+#travelsubmit:hover {
+  color: var(--tertiary);
+}
+
+#form {
   background-color: var(--quarternary);
 }
 
