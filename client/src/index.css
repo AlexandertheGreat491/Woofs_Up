@@ -109,10 +109,12 @@ nav a:hover {
 }
 
 /* LoginForm page styling */
-#login {
+#login, #signup {
   width: 300px;
   justify-content: center;
   background-color: var(--quarternary);
+  border: 0.1875em groove var(--primary);
+  border-radius: 4px;
 }
 
 #login-text {
@@ -132,6 +134,16 @@ nav a:hover {
 
 #submit:hover {
   color: var(--tertiary);
+}
+
+#signheader {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: var(--tertiary);
+}
+
+.sign {
+  background-color: var(--quarternary);
 }
 
 /* footer styling */

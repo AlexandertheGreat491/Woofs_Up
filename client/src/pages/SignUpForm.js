@@ -36,9 +36,9 @@ const SignUpForm = () => {
   };
 
   return (
-    <main className="d-flex flex-row justify-content-center">
+    <main className="sign d-flex flex-row justify-content-center">
       <div id="signup" className="card m-5">
-        <h4 id="signheader" style={{ color: "brown" }} className="card-header">
+        <h4 id="signheader" className="card-header">
           Sign Up
         </h4>
         <div className="card-body">

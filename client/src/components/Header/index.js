@@ -13,7 +13,9 @@ function Header(props) {
   return (
     <header className="col-12 d-inline-flex pb-3">
       <div>
-        <h1>Woof's Up!</h1>
+        <Link to="/">
+        <h1 className="d-inline-flex w-100">Woof's Up!</h1>
+        </Link>
 
         <div id="nav">
           <nav className="text-center d-inline-flex flex-row">
