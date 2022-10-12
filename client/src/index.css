@@ -149,7 +149,7 @@ nav a:hover {
 }
 
 /* travel form styling */
-.travel { 
+.travel {
   margin-left: 550px;
 }
 
@@ -213,6 +213,27 @@ nav a:hover {
 
 #form {
   background-color: var(--quarternary);
+}
+
+/* boarding page styling */
+
+#doghotel {
+  background-color: var(--quarternary);
+  width: 30%;
+  border: 0.1875em groove var(--primary);
+  border-radius: 4px;
+  float:left;
+}
+
+#board {
+  color: var(--tertiary);
+  font-size: 0.9375em;
+  font-weight: 600;
+}
+
+#boardinglinks {
+  font-size: 0.8125em;
+  color: var(--primary);
 }
 
 /* footer styling */

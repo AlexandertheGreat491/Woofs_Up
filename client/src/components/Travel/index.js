@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { send } from "emailjs-com";
 //import { validateEmail } from "../../utils/helpers";
 import { FaDog } from "react-icons/fa";
+import Boarding from '../../pages/Boarding';
+
 
 // Travel function to get return statement
 const TravelForm = () => {
@@ -30,6 +32,9 @@ const TravelForm = () => {
 
   return (
        <section id="form">
+        
+        <Boarding/>
+        
       <form id="travelform" className="mt-1 mb-1 travel card d-inline-flex" onSubmit={onSubmit}>
         <h2 id="bark" className="m-1 card-header">
           <FaDog className="me-1"/>
