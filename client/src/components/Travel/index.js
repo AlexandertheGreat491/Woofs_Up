@@ -42,7 +42,7 @@ const TravelForm = () => {
           <FaDog className="me-1" />
           Barks and Travel
         </h2>
-        <label id="from" htmlFor="from_name">
+        <label id="from" htmlFor="from_name" className="ms-1">
           From:
         </label>
         <input
@@ -52,8 +52,9 @@ const TravelForm = () => {
           value={toSend.from_name}
           onChange={handleChange}
           required
+          className="m-1"
         />
-        <label id="to" htmlFor="to_name">
+        <label id="to" htmlFor="to_name" className="ms-1">
           To:
         </label>
         <input
@@ -63,8 +64,9 @@ const TravelForm = () => {
           value={toSend.to_name}
           onChange={handleChange}
           required
+          className="m-1"
         />
-        <label id="message" htmlFor="message">
+        <label id="message" htmlFor="message" className="ms-1">
           Message:
         </label>
         <input
@@ -73,8 +75,9 @@ const TravelForm = () => {
           placeholder="Your message"
           value={toSend.message}
           onChange={handleChange}
+          className="m-1"
         />
-        <label id="email" htmlFor="reply_to">
+        <label id="email" htmlFor="reply_to" className="ms-1">
           Email:
         </label>
         <input
@@ -83,6 +86,7 @@ const TravelForm = () => {
           placeholder="Your email"
           value={toSend.reply_to}
           onChange={handleChange}
+          className="m-1"
         />
         <button className="m-2" id="travelsubmit" type="submit">
           Submit
