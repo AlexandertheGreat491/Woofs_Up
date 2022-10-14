@@ -42,6 +42,10 @@ Collaborators:
 
 Sources:
 
+[16 Pets of Instagram Who Travel Better Than We Do](https://www.cntraveler.com/galleries/2015-11-10/7-pets-of-instagram-who-travel-better-than-we-do)
+
+[The 15 Easiest Dogs to Travel With](https://www.newsweek.com/easiest-dogs-travel-terrier-retriever-1615584)
+
 [How to send emails from a form in React (EmailJS)](https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190)
 
 [react-google-forms-hooks](https://www.npmjs.com/package/react-google-forms-hooks)
