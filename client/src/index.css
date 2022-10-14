@@ -47,6 +47,10 @@ code {
   color: var(--tertiary);
 }
 
+#car {
+  float: right;
+}
+
 /* header styling */
 h1,
 h2,

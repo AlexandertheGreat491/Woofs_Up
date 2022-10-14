@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 
-import dogCar from "../../assets/images/dog_car.jpg";
+
 
 function Header(props) {
   const { options = [], setOption } = props;
