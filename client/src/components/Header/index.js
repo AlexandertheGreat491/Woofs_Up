@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Auth from "../../utils/auth";
 
+import dogCar from "../../assets/images/dog_car.jpg";
+
 function Header(props) {
   const { options = [], setOption } = props;
 
@@ -12,6 +14,7 @@ function Header(props) {
 
   return (
     <header className="col-12 d-inline-flex pb-3">
+      
       <div>
         <Link to="/">
         <h1 className="d-inline-flex w-100">Woof's Up!</h1>
