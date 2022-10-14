@@ -1,11 +1,15 @@
+// imports react
 import React from "react";
+// imports the image of a dog with sunglasses sitting on a suitcase
 import dogSuitcase from "../assets/images/dog_suitcase.JPG";
+// imports icons
 import { FaHouseUser } from "react-icons/fa";
 import { FaLocationArrow} from "react-icons/fa";
 
 
 // reference https://be.chewy.com/everything-you-need-to-know-about-pet-boarding/?gclid=Cj0KCQjwy5maBhDdARIsAMxrkw1xTCLzJeWX-StxKYy2i39BxGjJqJkFdb5LvTOxoyK_VZNsKomNLSwaAuUGEALw_wcB
 // reference https://images.app.goo.gl/kJjKu6faBXgwzrEr8
+
 const Boarding = () => {
   return (
     <div>
