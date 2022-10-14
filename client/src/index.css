@@ -47,6 +47,14 @@ code {
   color: var(--tertiary);
 }
 
+#texttwo {
+  margin-left: 18.75em;
+  margin-top: 150px;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--tertiary);
+}
+
 #car {
   float: right;
 }

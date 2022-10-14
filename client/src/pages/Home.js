@@ -14,6 +14,7 @@ const Home = () => {
       />
       <p id="text">Imagine taking your best friend on your adventures<AiFillCamera className="m-1"/></p>
       <img id="car" style={{ width: "15%", height: "15%" }} src={dogCar} alt="car" className="d-inline-flex m-3" />
+      <p id="texttwo">We are here to make that possible. Come join us!</p>
     </div>
   );
 };
