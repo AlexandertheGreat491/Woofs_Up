@@ -259,6 +259,32 @@ nav a:hover {
   color: var(--primary);
 }
 
+/* roadtrips page styling */
+.roadtrip {
+  background-color: var(--quarternary);
+  width: 30%;
+  border: 0.1875em groove var(--primary);
+  border-radius: 4px;
+  float: right;
+}
+
+#road {
+  color: var(--tertiary);
+  font-size: 0.9375em;
+  font-weight: 600;
+}
+
+#roadlink {
+  font-size: 0.8125em;
+  color: var(--primary);
+}
+
+#roady {
+  color: var(--tertiary);
+  font-size: 0.9375em;
+  font-weight: 600;
+}
+
 /* footer styling */
 footer {
   color: var(--quarternary);

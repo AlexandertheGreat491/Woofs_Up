@@ -3,6 +3,7 @@ import { send } from "emailjs-com";
 //import { validateEmail } from "../../utils/helpers";
 import { FaDog } from "react-icons/fa";
 import Boarding from "../../pages/Boarding";
+import Roadtrips from "../../pages/Roadtrips";
 
 // Travel function to get return statement
 const TravelForm = () => {
@@ -32,7 +33,7 @@ const TravelForm = () => {
   return (
     <section id="form">
       <Boarding />
-
+      <Roadtrips/>
       <form
         id="travelform"
         className="mt-1 mb-1 travel card d-inline-flex"
