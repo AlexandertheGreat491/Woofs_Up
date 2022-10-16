@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
 //import { validateEmail } from "../../utils/helpers";
-import { FaDog, FaHotel } from "react-icons/fa";
+import { FaDog } from "react-icons/fa";
 import Boarding from "../../pages/Boarding";
 import Roadtrips from "../../pages/AllTravel";
 
@@ -30,32 +30,32 @@ const TravelForm = () => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
-  const searchBar = () => {};
+  // const searchBar = () => {};
 
-  const [searchInput, setSearchInput] = useState("");
+  // const [searchInput, setSearchInput] = useState("");
 
-  const handletheChange = (e) => {
-    e.preventDefault();
-    setSearchInput(e.target.value);
-  };
-  if (searchInput.length > 0) {
-    hotel.filter((pets) => {
-      return;
-      pets.name.match(searchInput);
-    });
-  }
-  if (searchInput.length > 0) {
-    reststop.filter((pets) => {
-      return;
-      pets.name.match(searchInput);
-    });
-  }
-  if (searchInput.length > 0) {
-    airline.filter((pets) => {
-      return;
-      pets.name.match(searchInput);
-    });
-  }
+  // const handletheChange = (e) => {
+  //   e.preventDefault();
+  //   setSearchInput(e.target.value);
+  // };
+  // if (searchInput.length > 0) {
+  //   hotel.filter((pets) => {
+  //     return;
+  //     pets.name.match(searchInput);
+  //   });
+  // }
+  // if (searchInput.length > 0) {
+  //   reststop.filter((pets) => {
+  //     return;
+  //     pets.name.match(searchInput);
+  //   });
+  // }
+  // if (searchInput.length > 0) {
+  //   airline.filter((pets) => {
+  //     return;
+  //     pets.name.match(searchInput);
+  //   });
+  // }
 
   return (
     <section id="form">
@@ -120,7 +120,7 @@ const TravelForm = () => {
           Submit
         </button>
       </form>
-      {/* search bar */}
+      {/* search bar
       <div>
         <input
           type="text"
@@ -143,10 +143,10 @@ const TravelForm = () => {
             </tr>
 })}
         </table>
-      </div>
+      </div> */}
     </section>
   );
 };
 
-export default {TravelForm, searchBar};
+export default TravelForm;
 
