@@ -36,7 +36,7 @@ const TravelForm = () => {
       <Roadtrips/>
       <form
         id="travelform"
-        className="mt-1 mb-1 travel card d-inline-flex"
+        className="mb-1 travel card d-inline-flex"
         onSubmit={onSubmit}
       >
         <h2 id="bark" className="m-1 card-header">
