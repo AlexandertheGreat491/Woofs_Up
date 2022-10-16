@@ -292,6 +292,29 @@ nav a:hover {
   font-weight: 500;
 }
 
+#air {
+  color: var(--tertiary);
+  font-size: 0.9375em;
+  font-weight: 600;
+}
+
+#airtravel {
+  color: var(--primary);
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
+#help {
+  color: var(--tertiary);
+  font-size: 0.9375em;
+  font-weight: 600;
+}
+
+#airlink {
+  font-size: 0.8125em;
+  color: var(--primary);
+}
+
 /* footer styling */
 footer {
   color: var(--quarternary);

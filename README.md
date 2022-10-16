@@ -50,10 +50,15 @@ Sources:
 
 [How to Travel With Your Dog: A Complete Guide to Hitting the Road With Your Pup](https://be.chewy.com/how-to-travel-with-your-dog-a-complete-guide-to-hitting-the-road-with-your-pup-2/?gclid=CjwKCAjwtKmaBhBMEiwAyINuwJ3pCtt84IeEGNc80_cOnM5oe2b0baHjuKuycUq4GtqwXoPONwx0gRoCGEcQAvD_BwE)
 
+[Pets and International Travel](https://www.state.gov/pets-and-international-travel/)
+
 [react-google-forms-hooks](https://www.npmjs.com/package/react-google-forms-hooks)
 
 [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
 
+[Small Pets](https://www.tsa.gov/travel/security-screening/whatcanibring/items/small-pets)
+
+[US Air Pet Travel Regulations](https://www.bringfido.com/travel/us_regulations/)
 
 ## License
 
