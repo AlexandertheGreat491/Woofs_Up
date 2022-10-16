@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
 //import { validateEmail } from "../../utils/helpers";
-import { FaDog } from "react-icons/fa";
+import { FaDog, FaHotel } from "react-icons/fa";
 import Boarding from "../../pages/Boarding";
 import Roadtrips from "../../pages/AllTravel";
 
@@ -30,10 +30,37 @@ const TravelForm = () => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
+  const searchBar = () => {};
+
+  const [searchInput, setSearchInput] = useState("");
+
+  const handletheChange = (e) => {
+    e.preventDefault();
+    setSearchInput(e.target.value);
+  };
+  if (searchInput.length > 0) {
+    hotel.filter((pets) => {
+      return;
+      pets.name.match(searchInput);
+    });
+  }
+  if (searchInput.length > 0) {
+    reststop.filter((pets) => {
+      return;
+      pets.name.match(searchInput);
+    });
+  }
+  if (searchInput.length > 0) {
+    airline.filter((pets) => {
+      return;
+      pets.name.match(searchInput);
+    });
+  }
+
   return (
     <section id="form">
       <Boarding />
-      <Roadtrips/>
+      <Roadtrips />
       <form
         id="travelform"
         className="mb-1 travel card d-inline-flex"
@@ -93,8 +120,33 @@ const TravelForm = () => {
           Submit
         </button>
       </form>
+      {/* search bar */}
+      <div>
+        <input
+          type="text"
+          placeholder="Search here"
+          onChange={handletheChange}
+          value={searchInput}
+        />
+        <table>
+          <tr>
+            <th>Hotel</th>
+            <th>Reststop</th>
+            <th>Pets</th>
+          </tr>
+          {pets.map((hotel, *index*) =>
+          {
+            <tr>
+              <td>{hotel.name}</td>
+              <td>{reststop.name}</td>
+              <td>{pets.name}</td>
+            </tr>
+})}
+        </table>
+      </div>
     </section>
   );
 };
 
-export default TravelForm;
+export default {TravelForm, searchBar};
+
