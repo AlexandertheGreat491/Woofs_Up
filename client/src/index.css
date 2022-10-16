@@ -285,6 +285,12 @@ nav a:hover {
   font-weight: 600;
 }
 
+#puppy {
+  color: var(--primary);
+  font-size: 0.875em;
+  font-weight: 500;
+}
+
 /* footer styling */
 footer {
   color: var(--quarternary);
