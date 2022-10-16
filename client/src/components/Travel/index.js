@@ -3,7 +3,7 @@ import { send } from "emailjs-com";
 //import { validateEmail } from "../../utils/helpers";
 import { FaDog } from "react-icons/fa";
 import Boarding from "../../pages/Boarding";
-import Roadtrips from "../../pages/Roadtrips";
+import Roadtrips from "../../pages/AllTravel";
 
 // Travel function to get return statement
 const TravelForm = () => {

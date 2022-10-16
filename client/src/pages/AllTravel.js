@@ -2,7 +2,7 @@ import React from "react";
 import { FaBookOpen } from "react-icons/fa";
 import { FaCarSide } from "react-icons/fa";
 
-const Roadtrips = () => {
+const AllTravel = () => {
   return (
     <div className="roadtrip m-1">
       <h1 id="road" className="ms-1">Roadtrips with your dog<FaCarSide className="ms-1"/></h1>
@@ -19,4 +19,4 @@ const Roadtrips = () => {
   );
 };
 
-export default Roadtrips;
+export default AllTravel;
