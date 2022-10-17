@@ -44,3 +44,15 @@ db.once("open", async () => {
 });
 
 console.log("users seeded");
+
+await Hotel.deleteMany();
+
+const hotels = await Hotel.insertMany([
+    {
+        name: "Westin Edina Galleria",
+        description: "Small dogs only. Two dogs up to 40 lbs are welcome for no additional fee. Dogs may not be left unattended in rooms at any time. The hotel provides treats, bowls, and bedding. There is a pet relief area on the property and waste bags are available at the frong desk.",
+        createAt: Date.now(),
+        username: "user1",
+        url: "https://www.bringfido.com/lodging/81929"
+    },
+])
