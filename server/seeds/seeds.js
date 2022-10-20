@@ -40,7 +40,41 @@ db.once("open", async () => {
         password: "user6",
     });
 
+    await User.create({
+        username: "user7",
+        email: "user7@testmail.com",
+        password: "user7",
+    });
 
+    await User.create({
+        username: "user8",
+        email: "user8@testmail.com",
+        password: "user8",
+    });
+
+    await User.create({
+        username: "user9",
+        email: "user9@testmail.com",
+        password: "user9",
+    });
+
+    await User.create({
+        username: "user10",
+        email: "user10@testmail.com",
+        password: "user10",
+    });
+
+    await User.create({
+        username: "user11",
+        email: "user11@testmail.com",
+        password: "user11",
+    });
+
+    await User.create({
+        username: "user12",
+        email: "user12@testmail.com",
+        password: "user12",
+    });
 });
 
 console.log("users seeded");
