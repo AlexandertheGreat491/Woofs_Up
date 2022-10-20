@@ -110,4 +110,11 @@ const hotels = await Hotel.insertMany([
         username: "user4",
         url: "https://www.bringfido.com/lodging/282590?arrival=2022-11-01&departure=2022-11-02&adults=1",
     },
+    {
+        name: "Beacon Grand",
+        description: "The Beacon Grand is located in San Francisco, California. Beacon Grand welcomes two dogs with a combined weight up to 50lbs for an additional fee of $75 per stay. All pets must be declared at the time of booking. Both dogs and cats are allowed, but pets may not be left unattended in rooms. Treats, dog beds, and bowls are available upon request. Union Square park is within walking distance from the property.",
+        createdAt: Date.now(),
+        username: "user5",
+        url: "https://www.bringfido.com/lodging/68231?arrival=2022-11-01&departure=2022-11-02&adults=1"
+    },
 ])
