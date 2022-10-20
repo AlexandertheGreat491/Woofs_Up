@@ -59,7 +59,14 @@ const hotels = await Hotel.insertMany([
         name: "Edgewater Madison",
         description: "Edgewater Madison welcomes two pets of any size for an additional fee of $75 per stay.",
         createdAt: Date.now(),
-        username:"user1",
+        username:"user2",
         url: "https://www.bringfido.com/lodging/98970?arrival=2022-11-01&departure=2022-11-02&adults=1"
+    },
+    {
+        name: "Element Bozeman",
+        description: "Element Bozeman is pet friendly! One dog up to 40lbs or two dogs up to 20lbs are welcome for no additional fee. Well-behaved dogs may be left unattended in rooms. Treats, beds, and bowls are available, and there is a grassy pet relief area on site.",
+        createdAt: Date.now(),
+        username: "user3",
+        url: "https://www.bringfido.com/lodging/283500?arrival=2022-11-01&departure=2022-11-02&adults=1"
     },
 ])
