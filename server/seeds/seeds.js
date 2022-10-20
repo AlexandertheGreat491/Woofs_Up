@@ -51,8 +51,15 @@ const hotels = await Hotel.insertMany([
     {
         name: "Westin Edina Galleria",
         description: "Small dogs only. Two dogs up to 40 lbs are welcome for no additional fee. Dogs may not be left unattended in rooms at any time. The hotel provides treats, bowls, and bedding. There is a pet relief area on the property and waste bags are available at the frong desk.",
-        createAt: Date.now(),
+        createdAt: Date.now(),
         username: "user1",
         url: "https://www.bringfido.com/lodging/81929"
+    },
+    {
+        name: "Edgewater Madison",
+        description: "Edgewater Madison welcomes two pets of any size for an additional fee of $75 per stay.",
+        createdAt: Date.now(),
+        username:"user1",
+        url: "https://www.bringfido.com/lodging/98970?arrival=2022-11-01&departure=2022-11-02&adults=1"
     },
 ])
