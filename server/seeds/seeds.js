@@ -69,4 +69,11 @@ const hotels = await Hotel.insertMany([
         username: "user3",
         url: "https://www.bringfido.com/lodging/283500?arrival=2022-11-01&departure=2022-11-02&adults=1"
     },
+    {
+        name: "The Kimpton Gray Hotel",
+        description: "The Kimpton Gray Hotel is located in Chicago, Illinois. This hotel is pet friendly! Pets of any size are welcome for no additional fee. Both dogs and cats are permitted. Well-behaved pets may be left unattended in guest rooms. Treats are available at the front desk. There is agraccy area a few blocks from the hotel.",
+        createdAt: Date.now(),
+        username: "user4",
+        url: "https://www.bringfido.com/lodging/282590?arrival=2022-11-01&departure=2022-11-02&adults=1",
+    },
 ])
