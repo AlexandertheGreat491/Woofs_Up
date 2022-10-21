@@ -28,5 +28,10 @@ const airlineSchema = new Schema (
             required: "Please describe your pet's before flight experience or type N/A",
             minlength: 1
         },
+        createdAt: {
+            type: Date,
+            default: Date.now,
+            get: (timestamp) => dateFormat(timestamp),
+        },
     }
 )
