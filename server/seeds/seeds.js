@@ -181,5 +181,14 @@ db.once("open", async () => {
 
   console.log("Hotel seeded");
 
+  await Airline.deleteMany();
+  //reference https://www.nerdwallet.com/article/travel/most-pet-friendly-airlines
+
+  const airlines = await Airline.insertMany([
+
+  ]);
+
+  console.log("Airline seeded");
+
   process.exit();
 });
