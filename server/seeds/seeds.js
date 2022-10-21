@@ -185,7 +185,16 @@ db.once("open", async () => {
   //reference https://www.nerdwallet.com/article/travel/most-pet-friendly-airlines
 
   const airlines = await Airline.insertMany([
-
+    {
+      name: "Alaska Airlines",
+      description: "Alaska Airlines is the best airline for traveling with a pet. It had among the lowest fees and the most flexible pet policy in terms of what types of pets you can bring.",
+      maincabin: "Alaska has among the lowest pet fees for the main cabin charging $100 each way per kennel or carrier. Up to two pets of the same species and similar size may travel in the same carrier. It is $50 per pet if traveling with two. You could fly with up to 4 pets. The Alaska pet policy let you bring up to two pet carriers in the main cabin, but that gets pricey, as you will have to purchase the adjacent seat too. Your pet carrier counts toward your carry-on bag allotment, so plan to check bags or pack light.",
+      cargo: "Alaska will transport dogs for fees that will vary by route and your dog's size and start at $250.",
+      beforeyourflight: "If you are heading to an Alaska lounge your pet can come too, provided that it's well-behaved. The lounges are accessible to passengers with certain levels of elite status or people who purchase a separate membership, accept quiet service animals and pets in carry-on kennels.",
+      createdAt: Date.now(),
+      username: user1
+    },
+    
   ]);
 
   console.log("Airline seeded");
