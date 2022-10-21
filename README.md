@@ -60,6 +60,8 @@ Sources:
 
 [Small Pets](https://www.tsa.gov/travel/security-screening/whatcanibring/items/small-pets)
 
+[The Most Pet-Friendly Airlines](https://www.nerdwallet.com/article/travel/most-pet-friendly-airlines)
+
 [US Air Pet Travel Regulations](https://www.bringfido.com/travel/us_regulations/)
 
 ## License
