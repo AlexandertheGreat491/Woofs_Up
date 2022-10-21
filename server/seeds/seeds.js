@@ -79,7 +79,7 @@ db.once("open", async () => {
   console.log("users seeded");
 
   await Hotel.deleteMany();
-
+// reference https://www.bringfido.com/lodging/
   const hotels = await Hotel.insertMany([
     {
       name: "Westin Edina Galleria",
