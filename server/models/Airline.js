@@ -4,9 +4,14 @@ const dateFormat = ("../utils/dateFormat");
 const airlineSchema = new Schema (
     {
         name: {
-            tyep: String, 
+            type: String, 
             required: "Please enter the name of the airline",
-            minLength: 1
+            minlength: 1
         },
+        description: {
+            type: String,
+            required: "Please enter a description",
+            minlength: 1
+        }
     }
 )
