@@ -23,5 +23,10 @@ const airlineSchema = new Schema (
             required: "Please describe your pet's cargo experience, if applicable, otherwise type N/A",
             minlength: 1
         },
+        beforeyourflight: {
+            type: String,
+            required: "Please describe your pet's before flight experience or type N/A",
+            minlength: 1
+        },
     }
 )
