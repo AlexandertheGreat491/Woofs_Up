@@ -79,7 +79,7 @@ db.once("open", async () => {
   console.log("users seeded");
 
   await Hotel.deleteMany();
-// reference https://www.bringfido.com/lodging/
+  // reference https://www.bringfido.com/lodging/
   const hotels = await Hotel.insertMany([
     {
       name: "Westin Edina Galleria",
@@ -187,30 +187,42 @@ db.once("open", async () => {
   const airlines = await Airline.insertMany([
     {
       name: "Alaska Airlines",
-      description: "Alaska Airlines is the best airline for traveling with a pet. It had among the lowest fees and the most flexible pet policy in terms of what types of pets you can bring.",
-      maincabin: "Alaska has among the lowest pet fees for the main cabin charging $100 each way per kennel or carrier. Up to two pets of the same species and similar size may travel in the same carrier. It is $50 per pet if traveling with two. You could fly with up to 4 pets. The Alaska pet policy let you bring up to two pet carriers in the main cabin, but that gets pricey, as you will have to purchase the adjacent seat too. Your pet carrier counts toward your carry-on bag allotment, so plan to check bags or pack light.",
-      cargo: "Alaska will transport dogs for fees that will vary by route and your dog's size and start at $250.",
-      beforeyourflight: "If you are heading to an Alaska lounge your pet can come too, provided that it's well-behaved. The lounges are accessible to passengers with certain levels of elite status or people who purchase a separate membership, accept quiet service animals and pets in carry-on kennels.",
+      description:
+        "Alaska Airlines is the best airline for traveling with a pet. It had among the lowest fees and the most flexible pet policy in terms of what types of pets you can bring.",
+      maincabin:
+        "Alaska has among the lowest pet fees for the main cabin charging $100 each way per kennel or carrier. Up to two pets of the same species and similar size may travel in the same carrier. It is $50 per pet if traveling with two. You could fly with up to 4 pets. The Alaska pet policy let you bring up to two pet carriers in the main cabin, but that gets pricey, as you will have to purchase the adjacent seat too. Your pet carrier counts toward your carry-on bag allotment, so plan to check bags or pack light.",
+      cargo:
+        "Alaska will transport dogs for fees that will vary by route and your dog's size and start at $250.",
+      beforeyourflight:
+        "If you are heading to an Alaska lounge your pet can come too, provided that it's well-behaved. The lounges are accessible to passengers with certain levels of elite status or people who purchase a separate membership, accept quiet service animals and pets in carry-on kennels.",
       createdAt: Date.now(),
-      username: user1
+      username: user1,
     },
     {
       name: "American Airlines",
-      description: "Charges $125 for main cabin flights for pets within North America.",
-      maincabin: "You can bring one kennel that fits under the seat in front of you in lieu of a carry-on bag, and you must keep your pet in the kennel the entire time.",
-      cargo: "Passengers have the option to transport pets as checked baggage. Fees start at $200.",
-      beforeyourflight: "If you are going to an Admirals Club lounge before your flight, your dog can come too, as long as it remains in its kennel.",
+      description:
+        "Charges $125 for main cabin flights for pets within North America.",
+      maincabin:
+        "You can bring one kennel that fits under the seat in front of you in lieu of a carry-on bag, and you must keep your pet in the kennel the entire time.",
+      cargo:
+        "Passengers have the option to transport pets as checked baggage. Fees start at $200.",
+      beforeyourflight:
+        "If you are going to an Admirals Club lounge before your flight, your dog can come too, as long as it remains in its kennel.",
       createdAt: Date.now(),
-      username: user2
+      username: user2,
     },
     {
       name: "Hawaiian Airlines",
-      description: "Charges $125 for main cabin flights for pets within North America.",
-      maincabin: "Hawaiian accepts pets in the main cabin on almost all North Aerican flights, except for flights going to New York-JFK, Boston, Orlando or Austin and they must fit in a carrier that fits under the seat and weighs less that 25 pounds with the dog inside. Dogs canno0t fly ifrst class on any North American flights due to space limitations. Flying to Hawaii with your dog is extra-complicated because the Hawaii Department of Agriculture requires a quarantine for all pets, which comes with its own separate costs starting at $185 pet pet.",
-      cargo: "If you dog weighs more than the pet carry-on policy allows or you are flying first class, your dog can travel in the belly of the plane. Fees start at $125 for travel between Hawaii and North America.",
-      beforeyourflight: "Pets can enter any Hawaiian Airlines lounge, as it remains in its carrier.",
+      description:
+        "Charges $125 for main cabin flights for pets within North America.",
+      maincabin:
+        "Hawaiian accepts pets in the main cabin on almost all North Aerican flights, except for flights going to New York-JFK, Boston, Orlando or Austin and they must fit in a carrier that fits under the seat and weighs less that 25 pounds with the dog inside. Dogs canno0t fly ifrst class on any North American flights due to space limitations. Flying to Hawaii with your dog is extra-complicated because the Hawaii Department of Agriculture requires a quarantine for all pets, which comes with its own separate costs starting at $185 pet pet.",
+      cargo:
+        "If you dog weighs more than the pet carry-on policy allows or you are flying first class, your dog can travel in the belly of the plane. Fees start at $125 for travel between Hawaii and North America.",
+      beforeyourflight:
+        "Pets can enter any Hawaiian Airlines lounge, as it remains in its carrier.",
       createdAt: Date.now(),
-      username: user3
+      username: user3,
     },
   ]);
 
