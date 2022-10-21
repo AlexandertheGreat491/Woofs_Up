@@ -37,5 +37,14 @@ const airlineSchema = new Schema (
             type: String,
             required: true,
         },
+    },
+    {
+        toJSON: {
+            getters: true,
+        },
     }
-)
+);
+
+const Airline = model("Airline", airlineSchema);
+
+module.exports = Airline;
