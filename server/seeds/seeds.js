@@ -194,7 +194,24 @@ db.once("open", async () => {
       createdAt: Date.now(),
       username: user1
     },
-    
+    {
+      name: "American Airlines",
+      description: "Charges $125 for main cabin flights for pets within North America.",
+      maincabin: "You can bring one kennel that fits under the seat in front of you in lieu of a carry-on bag, and you must keep your pet in the kennel the entire time.",
+      cargo: "Passengers have the option to transport pets as checked baggage. Fees start at $200.",
+      beforeyourflight: "If you are going to an Admirals Club lounge before your flight, your dog can come too, as long as it remains in its kennel.",
+      createdAt: Date.now(),
+      username: user2
+    },
+    {
+      name: "Hawaiian Airlines",
+      description: "Charges $125 for main cabin flights for pets within North America.",
+      maincabin: "Hawaiian accepts pets in the main cabin on almost all North Aerican flights, except for flights going to New York-JFK, Boston, Orlando or Austin and they must fit in a carrier that fits under the seat and weighs less that 25 pounds with the dog inside. Dogs canno0t fly ifrst class on any North American flights due to space limitations. Flying to Hawaii with your dog is extra-complicated because the Hawaii Department of Agriculture requires a quarantine for all pets, which comes with its own separate costs starting at $185 pet pet.",
+      cargo: "If you dog weighs more than the pet carry-on policy allows or you are flying first class, your dog can travel in the belly of the plane. Fees start at $125 for travel between Hawaii and North America.",
+      beforeyourflight: "Pets can enter any Hawaiian Airlines lounge, as it remains in its carrier.",
+      createdAt: Date.now(),
+      username: user3
+    },
   ]);
 
   console.log("Airline seeded");
