@@ -17,4 +17,9 @@ type Hotel {
     username: String
     url: String
 }
+
+type Auth {
+    token: ID!
+    user: User
+}
 `
