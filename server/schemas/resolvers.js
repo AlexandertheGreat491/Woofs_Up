@@ -54,58 +54,54 @@ const resolvers = {
 
   Mutation: {
     addUser: async (_parent, args) => {
-        const user = await User.create(args);
-        const token = signToken(user);
+      const user = await User.create(args);
+      const token = signToken(user);
 
-        return {token, user};
+      return { token, user };
     },
 
-    login: async (_parent, {email, password}) => {
-        const user = await User.findOne({email});
+    login: async (_parent, { email, password }) => {
+      const user = await User.findOne({ email });
 
-        if (!user) {
-            throw new AuthenticationError("Incorrect credentials!");
-        }
+      if (!user) {
+        throw new AuthenticationError("Incorrect credentials!");
+      }
 
-        const correctPw = await user.isCorrectPassword(password);
+      const correctPw = await user.isCorrectPassword(password);
 
-        if (!correctPw) {
-            throw new AuthenticationError("Incorrect credentials!");
-        }
+      if (!correctPw) {
+        throw new AuthenticationError("Incorrect credentials!");
+      }
 
-        const token = signToken(user);
-        return {token, user};
+      const token = signToken(user);
+      return { token, user };
     },
 
-    addHotel: async (
-        _parent,
-        {name, description, username, url}
-    ) => {
-        const hotel = await Hotel.create({
-            name: name,
-            description: description,
-            createdAt: Date.now(),
-            username: username,
-            url: url
-        });
-        return hotel;
+    addHotel: async (_parent, { name, description, username, url }) => {
+      const hotel = await Hotel.create({
+        name: name,
+        description: description,
+        createdAt: Date.now(),
+        username: username,
+        url: url,
+      });
+      return hotel;
     },
     addAirline: async (
-        _parent, 
-        {name, description, maincabin, cargo, beforeyourflight, username}
+      _parent,
+      { name, description, maincabin, cargo, beforeyourflight, username }
     ) => {
-        const airline = await Airline.create({
-            name: name,
-            description: description,
-            maincabin: maincabin,
-            cargo: cargo,
-            beforeyourflight: beforeyourflight,
-            username: username
-        });
-        return airline;
-    }
-    
-  }
+      const airline = await Airline.create({
+        name: name,
+        description: description,
+        maincabin: maincabin,
+        cargo: cargo,
+        beforeyourflight: beforeyourflight,
+        username: username,
+      });
+      return airline;
+    },
+  },
 };
 
 module.exports = resolvers;
