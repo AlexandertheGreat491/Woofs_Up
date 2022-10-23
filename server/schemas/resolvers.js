@@ -5,6 +5,7 @@ const { User, Hotel, Airline } = require("../models");
 // imports signToken
 const { signToken } = require("..utils/auth");
 
+// none of these resolvers have been tested
 const resolvers = {
   Query: {
     me: async (_parent, _args, context) => {
