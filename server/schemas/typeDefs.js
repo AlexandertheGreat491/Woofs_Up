@@ -18,8 +18,40 @@ type Hotel {
     url: String
 }
 
+type Airline {
+    _id: ID
+    name: String
+    description: String
+    maincabin: String
+    cargo: String
+    beforeyourflight: String
+    createdAt: String
+    username: String
+}
+
 type Auth {
     token: ID!
     user: User
 }
-`
+
+type Mutation {
+    login(email: String!, password: String!): Auth
+    addUser(username: String!, email: String, password: String!): Auth
+    addHotel(
+        name: String!
+        description: String!
+        username: String!
+        url: String
+    ): Hotel
+    addAirline(
+        name: String!
+        description: String!
+        username: String!
+        maincabin: String
+        cargo: String
+        beforeyourflight: String
+    ): Airline
+}
+`;
+
+module.exports = typeDefs;
