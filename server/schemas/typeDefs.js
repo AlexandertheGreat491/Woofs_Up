@@ -8,4 +8,13 @@ type User {
     hotel: [Hotel]
     airline: [Airline]
 }
+
+type Hotel {
+    _id: ID
+    name: String
+    description: String
+    createdAt: String
+    username: String
+    url: String
+}
 `
