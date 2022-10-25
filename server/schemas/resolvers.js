@@ -3,7 +3,7 @@ const { AuthenticationError } = require("apollo-server-express");
 // imports all three models
 const { User, Hotel, Airline } = require("../models");
 // imports signToken
-const { signToken } = require("..utils/auth");
+const { signToken } = require(".utils/auth");
 
 // none of these resolvers have been tested
 const resolvers = {

@@ -1,34 +1,38 @@
 const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
 const path = require("path");
+// make sure lines 5-7 match file paths
 const { typeDefs, resolvers } = require("./schemas");
 const { authMiddleware } = require("./utils/auth");
 const db = require("./config/connection");
 
 const PORT = process.env.PORT || 3001;
-const app = express();
+
 const server = new ApolloServer({
   typeDefs,
   resolvers,
   context: authMiddleware,
 });
 
+const app = express();
+
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// Serves up static assets
-
-app.use("/images", express.static(path.join(__dirname, "../client/images")));
+// Serve up static assets
+//make sure ../client/images matches our naming
+//app.use("/images", express.static(path.join(__dirname, "../client/images")));
 
 if (process.env.NODE_ENV === "production") {
+  
   app.use(express.static(path.join(__dirname, "../client/build")));
 }
-
+//make sure lines 26 and 30 match file paths
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
-// Creates a new instance of an Apollo server with the GraphQL schema
+// Create a new instance of an Apollo server with the GraphQL schema
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({ app });
@@ -43,5 +47,5 @@ const startApolloServer = async (typeDefs, resolvers) => {
   });
 };
 
-// Calls the async function to start the server
+// Call the async function to start the server
 startApolloServer(typeDefs, resolvers);
