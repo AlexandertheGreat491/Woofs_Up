@@ -3,7 +3,7 @@ const { ApolloServer } = require("apollo-server-express");
 const path = require("path");
 // make sure lines 5-7 match file paths
 const { typeDefs, resolvers } = require("./schemas");
-const { authMiddleware } = require("./utils/auth");
+const { authMiddleware } = require("./utils/auth.js");
 const db = require("./config/connection");
 
 const PORT = process.env.PORT || 3001;
@@ -21,7 +21,7 @@ app.use(express.json());
 
 // Serve up static assets
 //make sure ../client/images matches our naming
-//app.use("/images", express.static(path.join(__dirname, "../client/images")));
+app.use("/images", express.static(path.join(__dirname, "../client/images")));
 
 if (process.env.NODE_ENV === "production") {
   

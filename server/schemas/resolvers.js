@@ -1,9 +1,6 @@
-// imports apollo-server-express
 const { AuthenticationError } = require("apollo-server-express");
-// imports all three models
 const { User, Hotel, Airline } = require("../models");
-// imports signToken
-const { signToken } = require(".utils/auth");
+const { signToken } = require("../utils/auth");
 
 // none of these resolvers have been tested
 const resolvers = {
@@ -19,7 +16,9 @@ const resolvers = {
     },
 
     users: async () => {
-      return User.find().select("-__v -password");
+      return User.find()
+      .select("-__v -password");
+
     },
 
     user: async (_parent, { username }) => {
@@ -35,7 +34,7 @@ const resolvers = {
       return Hotel.find(params).sort({ createdAt: -1 });
     },
 
-    hotel: async (_parent, { _id }) => {
+    hotels: async (_parent, { _id }) => {
       return Hotel.findOne({ _id });
     },
 
@@ -48,8 +47,8 @@ const resolvers = {
       return Hotel.find(params).sort({ createdAt: -1 });
     },
 
-    airline: async (_parent, { _id }) => {
-      return Hotel.findOne({ _id });
+    airlines: async (_parent, { _id }) => {
+      return Airline.findOne({ _id });
     },
   },
 

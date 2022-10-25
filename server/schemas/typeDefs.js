@@ -39,12 +39,11 @@ type Query {
     users: [User]
     user(username: String!): User
     hotelsFindAll: [Hotel]
-    hotel(username: String): [Hotel]
-    hotel(_id: ID!): Hotel
+    hotels(username: String): [Hotel]
     airlinesFindAll: [Airline]
-    airline(username: String): [Airline]
-    airline(_id: ID!): Airline
+    airlines(username: String): [Airline]
 }
+
 type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String, password: String!): Auth
