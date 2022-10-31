@@ -1,5 +1,7 @@
 import { gql } from "@apollo/client";
 
+// all of these need testing
+
 // query for all hotels
 export const QUERY_HOTELS = gql`
   query Query {
