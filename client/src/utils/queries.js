@@ -29,3 +29,16 @@ query Query($id: ID:) {
 `;
 
 // query for all airlines
+export const QUERY_AIRLINES = gql `
+query Query {
+  airlinesFindAll {
+    name
+    description
+    maincabin
+    cargo
+    beforeyourflight
+    createdAt
+    username
+  }
+}
+`;
