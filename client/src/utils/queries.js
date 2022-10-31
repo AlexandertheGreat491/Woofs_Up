@@ -59,3 +59,17 @@ query Query($id: ID:) {
   }
 }
 `;
+
+// query for hotel by username
+export const QUERY_HOTEL_USERNAME = gql`
+query Query ($username: String) {
+  hotels(username: $username) {
+    _id
+    name
+    description
+    createdAt
+    username
+    url
+  }
+}
+`;
