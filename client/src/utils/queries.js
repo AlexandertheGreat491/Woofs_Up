@@ -42,3 +42,20 @@ query Query {
   }
 }
 `;
+
+// query for a single airline
+export const QUERY_AIRLINE = gql`
+query Query($id: ID:) {
+  hotel(_id: $id) {
+    _id
+    name
+    description
+    maincabin
+    cargo
+    beforeyourflight
+    createdAt
+    username
+    url
+  }
+}
+`;
