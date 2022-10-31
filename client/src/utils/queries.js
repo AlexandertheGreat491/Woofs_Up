@@ -14,3 +14,4 @@ export const QUERY_HOTELS = gql`
   }
 `;
 
+// query for a single hotel
