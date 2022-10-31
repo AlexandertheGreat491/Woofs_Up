@@ -73,3 +73,20 @@ query Query ($username: String) {
   }
 }
 `;
+
+// query for airline by username
+export const QUERY_AIRLINE_USERNAME = gql`
+query Query ($username: String) {
+  airlines(username: $username) {
+    _id
+    name
+    description
+    maincabin
+    cargo
+    beforeyourflight
+    createdAt
+    username
+    url
+  }
+}
+`;
