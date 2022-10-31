@@ -27,3 +27,5 @@ query Query($id: ID:) {
   }
 }
 `;
+
+// query for all airlines
