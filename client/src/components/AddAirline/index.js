@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 // Need for later
-// import {useMutation} from "@apollo/client";
+ import {useMutation} from "@apollo/client";
+ import {QUERY_AIRLINE} from "../../utils/queries";
+ import {QUERY_AIRLINES} from "../../utils/queries";
 
 function AddAirline(props) {
     const {options = [], setOptions} = props;
