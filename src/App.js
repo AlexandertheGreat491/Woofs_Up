@@ -4,7 +4,7 @@ import React, {useState} from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Travel from "./components/Travel";
-import About from "./components/About";
+
 // imports pages
 import NoMatch from "./pages/NoMatch";
 import Home from './pages/Home';
@@ -36,7 +36,6 @@ function App() {
             currentOption={currentOption}
                />}
           />
-          <Route path="/about" element={<About/>} />
           <Route path="/login" element={<LoginForm/>} />
           <Route path="/signup" element={<SignUpForm/>} />
           <Route path="/travel" element={<Travel/>} />
