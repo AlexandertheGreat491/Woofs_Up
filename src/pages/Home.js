@@ -16,6 +16,7 @@ const Home = () => {
       <br></br>
       <h2 id="up" className="mt-1 mb-3 text-center">
         About Woofs Up
+        <FaTelegramPlane className="m-1" />
       </h2>
       <img
         style={{ width: "20%", height: "20%" }}
@@ -24,14 +25,7 @@ const Home = () => {
         className="mb-1 ms-2"
       />
 
-      <p id="text">
-        Imagine taking your best friend on your adventures
-        <AiFillCamera className="m-3" />
-        We are here to make that possible. Come join us!
-        <FaTelegramPlane className="m-1" />
-      </p>
-
-      <p id="bio">
+      <p id="bio" className="m-2">
         In March 2022, I took trip to Big Sky, Montana to do some skiing and
         hiking. In order to make this trip, I had to board my miniature
         schnauzer, Winston. I thouroughly enjoyed my time in the Big Sky and
