@@ -27,13 +27,11 @@ const Home = () => {
 
       <p id="text">
         Imagine taking your best friend on your adventures
-        <AiFillCamera className="m-1" />
-      </p>
-
-      <p id="texttwo">
+        <AiFillCamera className="m-3" />
         We are here to make that possible. Come join us!
         <FaTelegramPlane className="m-1" />
       </p>
+
       <p id="bio">
         In March 2022, I took trip to Big Sky, Montana to do some skiing and
         hiking. In order to make this trip, I had to board my miniature
