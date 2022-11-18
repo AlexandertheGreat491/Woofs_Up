@@ -1,8 +1,7 @@
 // imports react
 import React from "react";
 
-// importss the camera icon
-import { AiFillCamera } from "react-icons/ai";
+
 
 // imports the plane icon
 import { FaTelegramPlane } from "react-icons/fa";
@@ -12,7 +11,7 @@ import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
 const Home = () => {
   return (
-    <div style={{ width: "100%" }} className="home about">
+    <div style={{ width: "100%" }} className="home">
       <br></br>
       <h2 id="up" className="mt-1 mb-3 text-center">
         About Woofs Up
@@ -24,6 +23,7 @@ const Home = () => {
         alt="drinking horse"
         className="mb-1 ms-2"
       />
+      <div>
       <p id="bio" className="m-2">
         In March 2022, I took trip to Big Sky, Montana to do some skiing and
         hiking. In order to make this trip, I had to board my miniature
@@ -36,6 +36,7 @@ const Home = () => {
         on a mission to make it easier and more realistic for dog owners to
         travel with their dogs.
       </p>
+      </div>
     </div>
   );
 };
