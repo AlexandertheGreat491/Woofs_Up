@@ -43,6 +43,8 @@ code {
 
 #up {
   text-decoration: underline;
+  font-size: 1.5625em;
+  font-weight: 700;
 }
 
 #bio {
