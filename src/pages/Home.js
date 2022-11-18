@@ -11,9 +11,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
 const Home = () => {
+  
   return (
-    <div id="about" style={{ width: "100%" }} className="home about card">
-      <h2 id="up" className="text-center">
+    <div style={{ width: "100%" }} className="home about">
+      <br></br>
+      <h2 id="up" className="mt-1 mb-3 text-center">
         About Woofs Up
       </h2>
       <img
