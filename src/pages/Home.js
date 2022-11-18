@@ -24,7 +24,6 @@ const Home = () => {
         alt="drinking horse"
         className="mb-1 ms-2"
       />
-
       <p id="bio" className="m-2">
         In March 2022, I took trip to Big Sky, Montana to do some skiing and
         hiking. In order to make this trip, I had to board my miniature
