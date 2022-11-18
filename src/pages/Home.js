@@ -1,9 +1,12 @@
 // imports react
 import React from "react";
+
 // importss the camera icon
 import { AiFillCamera } from "react-icons/ai";
+
 // imports the plane icon
 import { FaTelegramPlane } from "react-icons/fa";
+
 // imports the image
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
