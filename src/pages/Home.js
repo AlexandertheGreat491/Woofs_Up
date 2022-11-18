@@ -11,7 +11,6 @@ import { FaTelegramPlane } from "react-icons/fa";
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
 const Home = () => {
-  
   return (
     <div style={{ width: "100%" }} className="home about">
       <br></br>
