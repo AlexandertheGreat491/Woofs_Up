@@ -28,6 +28,7 @@ const Home = () => {
         src={woofsUpLogo}
         style={{ width: "20%", height: "20%" }}
         alt="logo"
+        className="mb-1 ms-2"
       />
       <div className="ms-5">
         <p id="bio" className="m-2 p-2">
