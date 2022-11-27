@@ -10,7 +10,7 @@ function Header() {
           <h1 id="navheader" className="d-inline-flex w-100 text-center">Woof's Up!</h1>
         </Link>
 
-        <div id="nav">
+        <div id="nav" className="ms-4 mt-1">
           <nav className="text-center d-inline-flex flex-row">
             <>
               <Link className="navlinks" to="/login">
