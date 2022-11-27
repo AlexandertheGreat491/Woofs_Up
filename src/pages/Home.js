@@ -7,6 +7,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 // imports the images
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 import dogSuitcase from ".//../assets/images/dog_suitcase.JPG";
+// import the logo
+import woofsUpLogo from ".//../assets/images/LOGO.jpg";
 
 const Home = () => {
   return (
@@ -28,6 +30,11 @@ const Home = () => {
         alt="dog suitcase"
         className="mb-1 ms-3"
       />
+      <img
+        src={woofsUpLogo}
+        style={{ width: "20%", height: "20%" }}
+        alt="logo"
+        />
       <div className="ms-5">
         <p id="bio" className="m-2 p-2">
           In March 2022, I took trip to Big Sky, Montana to do some skiing and

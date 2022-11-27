@@ -2,10 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
+
+
 function Header() {
   return (
     <header className="col-12 d-inline-flex pb-3">
       <div>
+        
         <Link to="/">
           <h1 id="navheader" className="d-inline-flex w-100 text-center">Woof's Up!</h1>
         </Link>
