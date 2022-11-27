@@ -28,8 +28,8 @@ const Home = () => {
         alt="dog suitcase"
         className="mb-1 ms-3"
       />
-      <div>
-        <p id="bio" className="m-2">
+      <div className="ms-5">
+        <p id="bio" className="m-2 p-2">
           In March 2022, I took trip to Big Sky, Montana to do some skiing and
           hiking. In order to make this trip, I had to board my miniature
           schnauzer, Winston. I thouroughly enjoyed my time in the Big Sky and
