@@ -55,6 +55,8 @@ code {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--quarternary);
+  border: var(--secondary) groove 0.4375em;
+  border-radius: 0.1875em;
 }
 
 #about {
