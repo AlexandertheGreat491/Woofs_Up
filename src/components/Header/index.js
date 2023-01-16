@@ -15,7 +15,7 @@ function Header() {
         <div id="nav" className="ms-4 mt-1">
           <nav className="text-center d-inline-flex flex-row">
             <>
-              <Link className="navlinks ms-5" to="/home">
+              <Link className="navlinks ms-5" to="/">
                 Home
               </Link>
               <Link className="navlinks ms-5" to="/travel">
