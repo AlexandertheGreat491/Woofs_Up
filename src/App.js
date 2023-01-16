@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import AllTravel from "./pages/AllTravel";
+import Boarding from "./pages/Boarding";
 
 function App() {
   const [options] = useState([{name: "Travel"}]);
@@ -38,6 +39,7 @@ function App() {
           />
           <Route path="/travel" element={<Travel/>} />
           <Route path="/AllTravel" element={<AllTravel/>}/>
+          <Route path="/Boarding" element={<Boarding/>}/>
           <Route
           path="*"
           element={<NoMatch/>}
