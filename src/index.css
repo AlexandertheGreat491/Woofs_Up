@@ -110,8 +110,9 @@ h4 {
 .navlinks {
   color: var(--primary);
   background-color: var(--quarternary);
-  margin: 0.3125em;
   align-items: center;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 header {
