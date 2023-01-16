@@ -11,10 +11,12 @@ import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
+import AllTravel from "./pages/AllTravel";
 
 function App() {
   const [options] = useState([{name: "Travel"}]);
   const [currentOption, setOption] = useState(options[0]);
+  
 
   return (
     <Router>
@@ -35,6 +37,7 @@ function App() {
                />}
           />
           <Route path="/travel" element={<Travel/>} />
+          <Route path="/AllTravel" element={<AllTravel/>}/>
           <Route
           path="*"
           element={<NoMatch/>}

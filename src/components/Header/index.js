@@ -21,6 +21,9 @@ function Header() {
               <Link className="navlinks ms-5" to="/travel">
                 Travel
               </Link>
+              <Link className="navlinks ms-5" to="/AllTravel">
+                Plains, Trains, and Automobiles
+              </Link>
             </>
           </nav>
         </div>
