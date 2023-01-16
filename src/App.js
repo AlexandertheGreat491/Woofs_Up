@@ -8,8 +8,6 @@ import Travel from "./components/Travel";
 // imports pages
 import NoMatch from "./pages/NoMatch";
 import Home from './pages/Home';
-import LoginForm from './pages/LoginForm';
-import SignUpForm from './pages/SignUpForm';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
@@ -36,8 +34,6 @@ function App() {
             currentOption={currentOption}
                />}
           />
-          <Route path="/login" element={<LoginForm/>} />
-          <Route path="/signup" element={<SignUpForm/>} />
           <Route path="/travel" element={<Travel/>} />
           <Route
           path="*"
