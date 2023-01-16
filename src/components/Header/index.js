@@ -15,16 +15,16 @@ function Header() {
         <div id="nav" className="ms-4 mt-1">
           <nav className="text-center d-inline-flex flex-row">
             <>
-              <Link className="navlinks ms-5" to="/">
+              <Link className="navlinks m-2" to="/">
                 Home
               </Link>
-              <Link className="navlinks ms-5" to="/travel">
+              <Link className="navlinks m-2" to="/travel">
                 Travel
               </Link>
-              <Link className="navlinks ms-5" to="/AllTravel">
+              <Link className="navlinks m-2" to="/AllTravel">
                 Plains, Trains, and Automobiles
               </Link>
-              <Link className="navlinks ms-5" to="/Boarding">
+              <Link className="navlinks m-2" to="/Boarding">
                 Boarding
               </Link>
             </>
