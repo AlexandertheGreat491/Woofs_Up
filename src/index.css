@@ -47,6 +47,10 @@ code {
   font-weight: 700;
 }
 
+#woof {
+  border: var(--secondary) groove 0.9375em;
+}
+
 #bio {
   font-size: 0.875em;
   color: var(--tertiary);
