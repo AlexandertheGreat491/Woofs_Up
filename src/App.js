@@ -8,15 +8,16 @@ import Travel from "./components/Travel";
 // imports pages
 import NoMatch from "./pages/NoMatch";
 import Home from './pages/Home';
-import LoginForm from './pages/LoginForm';
-import SignUpForm from './pages/SignUpForm';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
+import AllTravel from "./pages/AllTravel";
+import Boarding from "./pages/Boarding";
 
 function App() {
   const [options] = useState([{name: "Travel"}]);
   const [currentOption, setOption] = useState(options[0]);
+  
 
   return (
     <Router>
@@ -36,9 +37,9 @@ function App() {
             currentOption={currentOption}
                />}
           />
-          <Route path="/login" element={<LoginForm/>} />
-          <Route path="/signup" element={<SignUpForm/>} />
           <Route path="/travel" element={<Travel/>} />
+          <Route path="/AllTravel" element={<AllTravel/>}/>
+          <Route path="/Boarding" element={<Boarding/>}/>
           <Route
           path="*"
           element={<NoMatch/>}
