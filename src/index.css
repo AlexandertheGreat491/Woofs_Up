@@ -310,6 +310,6 @@ footer {
 }
 /*GitHub link styling */
 footer a {
-  color: var(--quarternary);
+  color: var(--tertiary);
   padding: 0.625em;
 }
