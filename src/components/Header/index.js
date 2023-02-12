@@ -14,15 +14,8 @@ function Header() {
             Woof's Up!
           </h1>
         </Link>
-{/*woofs up logo image */}
-<img
-        src={woofsUpLogo}
-        style={{ width: "20%", height: "20%" }}
-        alt="logo"
-        className="img-fluid rounded mx-auto d-block"
-        id="woof"
-      />
-        <div id="nav" className="ms-4 mt-1">
+
+        <div id="nav" className="ms-5 mt-1">
           <nav className="text-center d-inline-flex flex-row">
             <>
               <Link className="navlinks m-2" to="/">
@@ -39,6 +32,14 @@ function Header() {
               </Link>
             </>
           </nav>
+          {/*woofs up logo image */}
+<img
+        src={woofsUpLogo}
+        style={{ width: "20%", height: "20%" }}
+        alt="logo"
+        className="img-fluid rounded mx-auto d-block"
+        id="woof"
+      />
         </div>
       </div>
     </header>
