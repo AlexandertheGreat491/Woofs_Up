@@ -18,12 +18,14 @@ const Home = () => {
         About Woofs Up
         <FaTelegramPlane className="m-1" />
       </h2>
+      {/*image for the about section */}
       <img
         style={{ width: "20%", height: "20%" }}
         src={drinkingHorse}
         alt="drinking horse"
         className="mb-1 ms-2"
       />
+      {/*woofs up logo image */}
       <img
         src={woofsUpLogo}
         style={{ width: "20%", height: "20%" }}
