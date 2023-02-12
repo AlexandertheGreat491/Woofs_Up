@@ -30,7 +30,7 @@ const Home = () => {
         src={woofsUpLogo}
         style={{ width: "20%", height: "20%" }}
         alt="logo"
-        className="mb-1 ms-5"
+        className="img-fluid rounded mx-auto d-block"
         id="woof"
       />
       <div className="ms-5">
