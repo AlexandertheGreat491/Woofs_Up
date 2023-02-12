@@ -308,7 +308,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
+/*GitHub link styling */
 footer a {
   color: var(--quarternary);
   padding: 0.625em;
