@@ -2,6 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// import the logo
+import woofsUpLogo from "..//../assets/images/LOGO.jpg";
+
 function Header() {
   return (
     <header className="col-12 d-inline-flex pb-3">
@@ -11,7 +14,14 @@ function Header() {
             Woof's Up!
           </h1>
         </Link>
-
+{/*woofs up logo image */}
+<img
+        src={woofsUpLogo}
+        style={{ width: "20%", height: "20%" }}
+        alt="logo"
+        className="img-fluid rounded mx-auto d-block"
+        id="woof"
+      />
         <div id="nav" className="ms-4 mt-1">
           <nav className="text-center d-inline-flex flex-row">
             <>

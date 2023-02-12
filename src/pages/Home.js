@@ -7,8 +7,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 // imports the images
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
-// import the logo
-import woofsUpLogo from ".//../assets/images/LOGO.jpg";
+
 
 const Home = () => {
   return (
@@ -25,16 +24,9 @@ const Home = () => {
         alt="drinking horse"
         className="mb-1 ms-2"
       />
-      {/*woofs up logo image */}
-      <img
-        src={woofsUpLogo}
-        style={{ width: "20%", height: "20%" }}
-        alt="logo"
-        className="img-fluid rounded mx-auto d-block"
-        id="woof"
-      />
+      
       <div className="ms-5">
-        <p id="bio" className="m-2 p-2">
+        <p id="bio" className="ms-2 me-2 mt-3 p-2">
           In March 2022, I took trip to Big Sky, Montana to do some skiing and
           hiking. In order to make this trip, I had to board my miniature
           schnauzer, Winston. I thouroughly enjoyed my time in the Big Sky and
