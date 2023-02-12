@@ -9,7 +9,7 @@ function Header() {
     <header className="col-12 d-inline-flex pb-3">
       <div>
         <Link to="/">
-          <h1 id="navheader" className="d-inline-flex w-100 justify-content-center ms-5">
+          <h1 id="navheader" className="d-inline-flex w-100 justify-content-center ms-4">
             Woof's Up!
           </h1>
         </Link>
