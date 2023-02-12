@@ -46,6 +46,8 @@ Sources:
 
 [The 15 Easiest Dogs to Travel With](https://www.newsweek.com/easiest-dogs-travel-terrier-retriever-1615584)
 
+[CSS Opacity/Transparency](https://www.w3schools.com/css/css_image_transparency.asp)
+
 [How to send emails from a form in React (EmailJS)](https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190)
 
 [How to Travel With Your Dog: A Complete Guide to Hitting the Road With Your Pup](https://be.chewy.com/how-to-travel-with-your-dog-a-complete-guide-to-hitting-the-road-with-your-pup-2/?gclid=CjwKCAjwtKmaBhBMEiwAyINuwJ3pCtt84IeEGNc80_cOnM5oe2b0baHjuKuycUq4GtqwXoPONwx0gRoCGEcQAvD_BwE)
