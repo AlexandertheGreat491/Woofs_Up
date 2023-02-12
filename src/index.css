@@ -49,6 +49,7 @@ code {
 
 #woof {
   border: var(--secondary) groove 0.9375em;
+  opacity: 0.6;
 }
 
 #bio {
