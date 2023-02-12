@@ -22,7 +22,7 @@ const Home = () => {
           style={{ width: "20%", height: "20%" }}
           src={drinkingHorse}
           alt="drinking horse"
-          className="mb-1 ms-2"
+          className="mb-1 float-start"
         />
         <p id="bio" className="ms-2 me-2 mt-3 p-2">
           In March 2022, I took trip to Big Sky, Montana to do some skiing and
