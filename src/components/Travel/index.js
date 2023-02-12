@@ -30,33 +30,6 @@ const TravelForm = () => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
-  // const searchBar = () => {};
-
-  // const [searchInput, setSearchInput] = useState("");
-
-  // const handletheChange = (e) => {
-  //   e.preventDefault();
-  //   setSearchInput(e.target.value);
-  // };
-  // if (searchInput.length > 0) {
-  //   hotel.filter((pets) => {
-  //     return;
-  //     pets.name.match(searchInput);
-  //   });
-  // }
-  // if (searchInput.length > 0) {
-  //   reststop.filter((pets) => {
-  //     return;
-  //     pets.name.match(searchInput);
-  //   });
-  // }
-  // if (searchInput.length > 0) {
-  //   airline.filter((pets) => {
-  //     return;
-  //     pets.name.match(searchInput);
-  //   });
-  // }
-
   return (
     <section id="form">
       <Boarding />
