@@ -34,7 +34,7 @@ function Header() {
           {/*woofs up logo image */}
 <img
         src={woofsUpLogo}
-        style={{ width: "20%", height: "20%" }}
+        style={{ width: "15%", height: "15%" }}
         alt="logo"
         className="img-fluid rounded mx-auto d-block"
         id="woof"
