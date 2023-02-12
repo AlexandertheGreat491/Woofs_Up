@@ -297,7 +297,7 @@ nav a:hover {
 
 /* footer styling */
 footer {
-  color: var(--quarternary);
+  color: var(--tertiary);
   background-color: var(--secondary);
   font-size: 0.875em;
   font-weight: 700;
