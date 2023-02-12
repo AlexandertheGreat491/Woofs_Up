@@ -15,16 +15,15 @@ const Home = () => {
         About Woofs Up
         <FaTelegramPlane className="m-1" />
       </h2>
-      {/*image for the about section */}
-      
-      
+
       <div className="ms-5">
-      <img
-        style={{ width: "20%", height: "20%" }}
-        src={drinkingHorse}
-        alt="drinking horse"
-        className="mb-1 ms-2"
-      />
+        {/*image for the about section */}
+        <img
+          style={{ width: "20%", height: "20%" }}
+          src={drinkingHorse}
+          alt="drinking horse"
+          className="mb-1 ms-2"
+        />
         <p id="bio" className="ms-2 me-2 mt-3 p-2">
           In March 2022, I took trip to Big Sky, Montana to do some skiing and
           hiking. In order to make this trip, I had to board my miniature
