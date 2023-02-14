@@ -19,19 +19,19 @@ function Header() {
         <div id="nav" className="ms-5 mt-1">
           <nav className="text-center d-inline-flex flex-row">
             <>
-              <Link className="navlinks me-5" to="/">
+              <Link className="navlinks me-3" to="/">
                 Home
               </Link>
-              <FaPaw className="m-1" />
-              <Link className="navlinks me-5" to="/travel">
+              <FaPaw className="m-2" />
+              <Link className="navlinks me-3" to="/travel">
                 Travel
               </Link>
-              <FaPaw className="m-1" />
-              <Link className="navlinks me-5" to="/AllTravel">
+              <FaPaw className="m-2" />
+              <Link className="navlinks me-3" to="/AllTravel">
                 Plains, Trains, and Automobiles
               </Link>
-              <FaPaw className="m-1" />
-              <Link className="navlinks me-5" to="/Boarding">
+              <FaPaw className="m-2" />
+              <Link className="navlinks" to="/Boarding">
                 Boarding
               </Link>
             </>
