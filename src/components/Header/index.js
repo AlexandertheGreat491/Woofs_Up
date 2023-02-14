@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // imports the logo
 import woofsUpLogo from "..//../assets/images/LOGO.jpg";
+import {FaPaw} from "react-icons/fa";
 
 function Header() {
   return (
@@ -20,12 +21,15 @@ function Header() {
               <Link className="navlinks m-5" to="/">
                 Home
               </Link>
+              <FaPaw className="m-1" />
               <Link className="navlinks m-5" to="/travel">
                 Travel
               </Link>
+              <FaPaw className="m-1" />
               <Link className="navlinks m-5" to="/AllTravel">
                 Plains, Trains, and Automobiles
               </Link>
+              <FaPaw className="m-1" />
               <Link className="navlinks m-5" to="/Boarding">
                 Boarding
               </Link>
