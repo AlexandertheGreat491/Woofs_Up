@@ -116,6 +116,10 @@ h4 {
   font-weight: 600;
 }
 
+#paw {
+  color: var(--tertiary);
+}
+
 header {
   background-color: var(--secondary);
   border: 0.3125em groove var(--primary);
