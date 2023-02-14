@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // imports the logo
 import woofsUpLogo from "..//../assets/images/LOGO.jpg";
+// imports the paw icon
 import {FaPaw} from "react-icons/fa";
 
 function Header() {
