@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
-//import { validateEmail } from "../../utils/helpers";
 import { FaDog } from "react-icons/fa";
 import Boarding from "../../pages/Boarding";
 import Roadtrips from "../../pages/AllTravel";
@@ -36,7 +35,7 @@ const TravelForm = () => {
       <Roadtrips />
       <form
         id="travelform"
-        className="mb-1 travel card d-inline-flex"
+        className="ms-3 mb-3 card d-inline-flex"
         onSubmit={onSubmit}
       >
         <h2 id="bark" className="m-1 card-header">
