@@ -253,7 +253,7 @@ nav a:hover {
 
 #road {
   color: var(--tertiary);
-  font-size: 0.9375em;
+  font-size: 1em;
   font-weight: 600;
   text-decoration: underline;
 }
