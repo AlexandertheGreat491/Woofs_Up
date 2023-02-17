@@ -93,30 +93,6 @@ const TravelForm = () => {
           Submit
         </button>
       </form>
-      {/* search bar
-      <div>
-        <input
-          type="text"
-          placeholder="Search here"
-          onChange={handletheChange}
-          value={searchInput}
-        />
-        <table>
-          <tr>
-            <th>Hotel</th>
-            <th>Reststop</th>
-            <th>Pets</th>
-          </tr>
-          {pets.map((hotel, *index*) =>
-          {
-            <tr>
-              <td>{hotel.name}</td>
-              <td>{reststop.name}</td>
-              <td>{pets.name}</td>
-            </tr>
-})}
-        </table>
-      </div> */}
     </section>
   );
 };
