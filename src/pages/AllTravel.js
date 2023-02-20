@@ -5,7 +5,7 @@ import { FaPlaneDeparture } from "react-icons/fa";
 
 const AllTravel = () => {
   return (
-    <div className="roadtrip ms-1 me-4" style={{ width: "40%", height: "15%" }}>
+    <div className="roadtrip ms-1 me-4" style={{ width: "45%", height: "15%" }}>
       <h1 id="road" className="ms-1">
         Roadtrips with your dog
         <FaCarSide className="ms-1" />
