@@ -243,9 +243,9 @@ nav a:hover {
 }
 
 /* roadtrips page styling */
+
 .roadtrip {
   background-color: var(--quarternary);
-  width: 30%;
   border: 0.1875em groove var(--primary);
   border-radius: 4px;
   float: right;
