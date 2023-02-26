@@ -1,7 +1,10 @@
 import React from "react";
+// imports icons
 import { FaBookOpen } from "react-icons/fa";
 import { FaCarSide } from "react-icons/fa";
 import { FaPlaneDeparture } from "react-icons/fa";
+// imports the article image
+import guide from "../assets/images/guide.jpg";
 
 const AllTravel = () => {
   return (
@@ -17,6 +20,12 @@ const AllTravel = () => {
         Start by reading this article
         <FaBookOpen className="ms-1" />
       </p>
+      <img
+      src={guide}
+      style={{ width: "15%", height: "15%" }}
+      alt="thumbnail"
+      id="article"
+      />
       <a
         href="https://be.chewy.com/how-to-travel-with-your-dog-a-complete-guide-to-hitting-the-road-with-your-pup-2/?gclid=CjwKCAjwtKmaBhBMEiwAyINuwJ3pCtt84IeEGNc80_cOnM5oe2b0baHjuKuycUq4GtqwXoPONwx0gRoCGEcQAvD_BwE"
         className="mb-1 ms-1"
