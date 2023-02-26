@@ -19,34 +19,35 @@ function Header() {
           </h1>
         </Link>
 
-        <div id="nav" className="ms-5 mt-3">
-          <nav className="text-center d-inline-flex flex-row">
+        <div id="nav" className="mt-3">
+          <nav className="justify-content-center d-inline-flex flex-row">
+            {/*woofs up logo image */}
+            <img
+              src={woofsUpLogo}
+              style={{ width: "15%", height: "15%" }}
+              alt="logo"
+              className="img-fluid rounded"
+              id="woof"
+            />
             <>
-              <Link className="navlinks me-3 ms-4 mb-2" to="/">
+              <Link
+                className="navlinks me-3 ms-4 mb-2"
+                to="/"
+                style={{ width: "5%", height: "15%" }}
+              >
                 Home
               </Link>
-              <FaPaw id="paw" className="mt-3" />
-              <Link className="navlinks me-3 ms-4 mb-2" to="/travel">
+              <FaPaw id="paw" className="ms-1 mt-3" />
+              <Link
+                className="navlinks me-3 ms-4 mb-2"
+                to="/travel"
+                style={{ width: "5%", height: "15%" }}
+              >
                 Travel
               </Link>
               <FaPaw id="paw" className="mt-3" />
-              <Link className="navlinks me-3 ms-4 mb-2" to="/AllTravel">
-                Plains, Trains, and Automobiles
-              </Link>
-              <FaPaw id="paw" className="mt-3" />
-              <Link className="navlinks ms-4 mb-2" to="/Boarding">
-                Boarding
-              </Link>
             </>
           </nav>
-          {/*woofs up logo image */}
-          <img
-            src={woofsUpLogo}
-            style={{ width: "15%", height: "15%" }}
-            alt="logo"
-            className="img-fluid rounded mx-auto d-block"
-            id="woof"
-          />
         </div>
       </div>
     </header>

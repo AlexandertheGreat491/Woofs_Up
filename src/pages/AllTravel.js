@@ -4,8 +4,8 @@ import React from "react";
 import { FaBookOpen } from "react-icons/fa";
 // imports the car icon
 import { FaCarSide } from "react-icons/fa";
-// imports the plaine icon
-import { FaPlaneDeparture } from "react-icons/fa";
+// // imports the plaine icon
+// import { FaPlaneDeparture } from "react-icons/fa";
 // imports the article image
 import guide from "../assets/images/guide.jpg";
 
@@ -23,31 +23,22 @@ const AllTravel = () => {
         Start by reading this article
         <FaBookOpen className="ms-1" />
       </p>
-      
+
       <a
         href="https://be.chewy.com/how-to-travel-with-your-dog-a-complete-guide-to-hitting-the-road-with-your-pup-2/?gclid=CjwKCAjwtKmaBhBMEiwAyINuwJ3pCtt84IeEGNc80_cOnM5oe2b0baHjuKuycUq4GtqwXoPONwx0gRoCGEcQAvD_BwE"
         className="mb-1"
         id="roadlink"
       >
         <img
-      src={guide}
-      style={{ width: "18%", height: "18%" }}
-      alt="thumbnail"
-      id="article"
-      className="me-1"
-      ></img>
+          src={guide}
+          style={{ width: "18%", height: "18%" }}
+          alt="thumbnail"
+          id="article"
+          className="me-1"
+        ></img>
         How to Travel With Your Dog: A Complete Guide to Hitting the Road With
         Your Pup
       </a>
-      
-      <div className="m-1">
-        <h2 id="air">Fly higher with your dog<FaPlaneDeparture className="ms-1"/></h2>
-        <p id="airtravel">Check out the helpful links and then search the database for further information!</p>
-        <h3 id="help">Helpful links to start planning air travel with your dog</h3>
-        <a id="airlink" href="https://www.tsa.gov/travel/security-screening/whatcanibring/items/small-pets">TSA guidelines for small pets</a>
-        <a id="airlink" href="https://www.bringfido.com/travel/us_regulations/">US Pet Air Travel Regulations</a>
-        <a id="airlink" href="https://www.state.gov/pets-and-international-travel/" >Pets and International Travel</a>
-      </div>
     </div>
   );
 };
