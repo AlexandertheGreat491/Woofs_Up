@@ -33,10 +33,10 @@ function Header() {
               <Link className="navlinks me-3 ms-4 mb-2" to="/AllTravel">
                 Plains, Trains, and Automobiles
               </Link>
-              <FaPaw id="paw" className="mt-3" />
+              {/* <FaPaw id="paw" className="mt-3" />
               <Link className="navlinks ms-4 mb-2" to="/Boarding">
                 Boarding
-              </Link>
+              </Link> */}
             </>
           </nav>
           {/*woofs up logo image */}

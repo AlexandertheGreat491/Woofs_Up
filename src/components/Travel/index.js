@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
 import { FaDog } from "react-icons/fa";
-//import Boarding from "../../pages/Boarding";
+import Boarding from "../../pages/Boarding";
 import Roadtrips from "../../pages/AllTravel";
 
 // Travel function to get return statement
@@ -31,7 +31,7 @@ const TravelForm = () => {
 
   return (
     <section id="form">
-      {/* <Boarding /> */}
+      <Boarding />
       <Roadtrips />
       <form
         id="travelform"
