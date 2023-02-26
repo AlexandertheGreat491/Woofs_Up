@@ -48,6 +48,8 @@ Sources:
 
 [CSS Opacity/Transparency](https://www.w3schools.com/css/css_image_transparency.asp)
 
+[CSS :hover effect not working when I set an ID to the paragraph](https://stackoverflow.com/questions/21705058/css-hover-effect-not-working-when-i-set-an-id-to-the-paragraph)
+
 [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
 
 [How to send emails from a form in React (EmailJS)](https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190)
