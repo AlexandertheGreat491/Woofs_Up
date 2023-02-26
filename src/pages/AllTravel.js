@@ -26,7 +26,7 @@ const AllTravel = () => {
       
       <a
         href="https://be.chewy.com/how-to-travel-with-your-dog-a-complete-guide-to-hitting-the-road-with-your-pup-2/?gclid=CjwKCAjwtKmaBhBMEiwAyINuwJ3pCtt84IeEGNc80_cOnM5oe2b0baHjuKuycUq4GtqwXoPONwx0gRoCGEcQAvD_BwE"
-        className="mb-1 ms-1"
+        className="mb-1"
         id="roadlink"
       >
         <img
@@ -34,6 +34,7 @@ const AllTravel = () => {
       style={{ width: "18%", height: "18%" }}
       alt="thumbnail"
       id="article"
+      className="me-1"
       ></img>
         How to Travel With Your Dog: A Complete Guide to Hitting the Road With
         Your Pup
