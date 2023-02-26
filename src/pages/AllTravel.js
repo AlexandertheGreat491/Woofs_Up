@@ -46,17 +46,7 @@ const AllTravel = () => {
         Your Pup
       </a>
 
-      {/* <div className="m-1">
-        <h2 id="air">Fly higher with your dog<FaPlaneDeparture className="ms-1"/></h2>
-        <p id="airtravel">Check out the helpful links and then search the database for further information!</p>
-        <h3 id="help">Helpful links to start planning air travel with your dog</h3>
-        <a id="airlink" href="https://www.tsa.gov/travel/security-screening/whatcanibring/items/small-pets">TSA guidelines for small pets</a>
-        <a id="airlink" href="https://www.bringfido.com/travel/us_regulations/">US Pet Air Travel Regulations</a>
-        <a id="airlink" href="https://www.state.gov/pets-and-international-travel/" >Pets and International Travel</a>
-      </div> */}
-      {/* </div> */}
-
-      <div id="doghotel" className="container card m-1">
+      <div id="doghotel" className="mt-1">
         <h2 id="board">
           What you need know about boarding your dog
           <FaHouseUser className="ms-1" />
