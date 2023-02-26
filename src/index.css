@@ -263,6 +263,10 @@ nav a:hover {
   color: var(--primary);
 }
 
+#roadlink:hover {
+  color: var(--background);
+}
+
 #roady {
   color: var(--tertiary);
   font-size: 0.9375em;
