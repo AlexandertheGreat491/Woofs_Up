@@ -30,7 +30,7 @@ function Header() {
             id="woof"
           />
             <>
-              <Link className="navlinks me-3 ms-4 mb-2" to="/">
+              <Link className="navlinks me-3 ms-4 mb-2" to="/" style={{ width: "15%", height: "15%" }}>
                 Home
               </Link>
               <FaPaw id="paw" className="mt-3" />
