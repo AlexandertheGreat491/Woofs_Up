@@ -30,9 +30,9 @@ function Header() {
                 Travel
               </Link>
               <FaPaw id="paw" className="mt-3" />
-              <Link className="navlinks me-3 ms-4 mb-2" to="/AllTravel">
+              {/* <Link className="navlinks me-3 ms-4 mb-2" to="/AllTravel">
                 Plains, Trains, and Automobiles
-              </Link>
+              </Link> */}
               {/* <FaPaw id="paw" className="mt-3" />
               <Link className="navlinks ms-4 mb-2" to="/Boarding">
                 Boarding
