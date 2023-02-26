@@ -25,10 +25,7 @@ const AllTravel = () => {
         How to Travel With Your Dog: A Complete Guide to Hitting the Road With
         Your Pup
       </a>
-      <p className="ms-1" id="puppy">
-        Then search our database for everything from dog friendly hotels to dog
-        parks to veterinarians to rest stops.
-      </p>
+      
       <div className="m-1">
         <h2 id="air">Fly higher with your dog<FaPlaneDeparture className="ms-1"/></h2>
         <p id="airtravel">Check out the helpful links and then search the database for further information!</p>
