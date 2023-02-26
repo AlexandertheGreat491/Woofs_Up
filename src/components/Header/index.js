@@ -37,7 +37,7 @@ function Header() {
               >
                 Home
               </Link>
-              <FaPaw id="paw" className="mt-3" />
+              <FaPaw id="paw" className="ms-1 mt-3" />
               <Link
                 className="navlinks me-3 ms-4 mb-2"
                 to="/travel"
