@@ -22,6 +22,7 @@ function Header() {
         <div id="nav" className="mt-3">
         
           <nav className="justify-content-center d-inline-flex flex-row">
+            {/*woofs up logo image */}
           <img
             src={woofsUpLogo}
             style={{ width: "15%", height: "15%" }}
@@ -39,7 +40,7 @@ function Header() {
               </Link>
               <FaPaw id="paw" className="mt-3" />
             </>
-            {/*woofs up logo image */}
+            
           
           </nav>
           
