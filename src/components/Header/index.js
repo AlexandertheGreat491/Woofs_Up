@@ -30,7 +30,6 @@ function Header() {
                 Travel
               </Link>
               <FaPaw id="paw" className="mt-3" />
-              
             </>
           </nav>
           {/*woofs up logo image */}
