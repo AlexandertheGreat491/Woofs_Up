@@ -23,17 +23,18 @@ const AllTravel = () => {
         Start by reading this article
         <FaBookOpen className="ms-1" />
       </p>
-      <img
-      src={guide}
-      style={{ width: "15%", height: "15%" }}
-      alt="thumbnail"
-      id="article"
-      />
+      
       <a
         href="https://be.chewy.com/how-to-travel-with-your-dog-a-complete-guide-to-hitting-the-road-with-your-pup-2/?gclid=CjwKCAjwtKmaBhBMEiwAyINuwJ3pCtt84IeEGNc80_cOnM5oe2b0baHjuKuycUq4GtqwXoPONwx0gRoCGEcQAvD_BwE"
         className="mb-1 ms-1"
         id="roadlink"
       >
+        <img
+      src={guide}
+      style={{ width: "15%", height: "15%" }}
+      alt="thumbnail"
+      id="article"
+      ></img>
         How to Travel With Your Dog: A Complete Guide to Hitting the Road With
         Your Pup
       </a>
