@@ -1,13 +1,17 @@
 // imports the useState hook
 import React, { useState } from "react";
+
 // imports emailjs
 import { send } from "emailjs-com";
+
 // imports the icons
 // imports the FaDog icon
 import { FaDog } from "react-icons/fa";
+
 // imports pages
 // imports the Boarding page
 import Boarding from "../../pages/Boarding";
+
 // imports the Roadtrips page
 import Roadtrips from "../../pages/AllTravel";
 
