@@ -6,6 +6,7 @@ import React from "react";
 import dogSuitcase from "../assets/images/dog_suitcase.JPG";
 
 // imports icons
+// imports the HouseUser icon
 import { FaHouseUser } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 
