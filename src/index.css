@@ -167,6 +167,7 @@ nav a:hover {
   color: var(--tertiary);
 }
 
+/* heading styling */
 #bark {
   font-size: 1.875em;
   font-weight: 700;
@@ -175,14 +176,14 @@ nav a:hover {
   background-color: var(--quarternary);
   color: var(--tertiary);
 }
-
+/* from field styling */
 #from {
   color: var(--tertiary);
   margin-right: 0.625em;
   font-size: 0.9375em;
   font-weight: 500;
 }
-
+/* to field styling */
 #to {
   color: var(--tertiary);
   margin-right: 0.625em;
@@ -190,7 +191,7 @@ nav a:hover {
   font-size: 0.9375em;
   font-weight: 500;
 }
-
+/* message field styling */
 #message {
   color: var(--tertiary);
   margin-right: 0.625em;
@@ -198,7 +199,7 @@ nav a:hover {
   font-size: 0.9375em;
   font-weight: 500;
 }
-
+/* email field styling */
 #email {
   color: var(--tertiary);
   margin-right: 0.625em;
@@ -206,8 +207,7 @@ nav a:hover {
   font-size: 0.9375em;
   font-weight: 500;
 }
-
-
+/* submit button styling */
 #travelsubmit {
   border: 0.1875em groove var(--primary);
   border-radius: 4px;
@@ -218,7 +218,7 @@ nav a:hover {
 #travelsubmit:hover {
   color: var(--tertiary);
 }
-
+/* overall form styling */
 #form {
   background-color: var(--quarternary);
 }
