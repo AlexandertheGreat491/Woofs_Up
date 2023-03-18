@@ -8,6 +8,7 @@ import dogSuitcase from "../assets/images/dog_suitcase.JPG";
 // imports icons
 // imports the HouseUser icon
 import { FaHouseUser } from "react-icons/fa";
+// imports the LocationArrow icon
 import { FaLocationArrow } from "react-icons/fa";
 
 // reference https://be.chewy.com/everything-you-need-to-know-about-pet-boarding/?gclid=Cj0KCQjwy5maBhDdARIsAMxrkw1xTCLzJeWX-StxKYy2i39BxGjJqJkFdb5LvTOxoyK_VZNsKomNLSwaAuUGEALw_wcB
