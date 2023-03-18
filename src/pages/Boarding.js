@@ -16,7 +16,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Boarding = () => {
   return (
-    <div id="doghotel" className="mt-3">
+    <div id="doghotel" className=" ms-2 mt-3">
       <h2 id="board">
         What you need know about boarding your dog
         <FaHouseUser className="ms-1" />
