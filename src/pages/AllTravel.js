@@ -17,9 +17,9 @@ const AllTravel = () => {
         Roadtrips with your dog
         <FaCarSide className="ms-1" />
       </h1>
-      <p id="roady" className="ms-1">
+      <h2 id="roady" className="ms-1">
         Plan Plan Plan
-      </p>
+      </h2>
       <p className="ms-1" id="puppy">
         Start by reading this article
         <FaBookOpen className="ms-1" />
