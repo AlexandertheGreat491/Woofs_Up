@@ -258,6 +258,7 @@ nav a:hover {
   font-size: 1em;
   font-weight: 600;
   text-decoration: underline;
+  text-align: center;
 }
 
 #roadlink {
