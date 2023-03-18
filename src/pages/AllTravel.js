@@ -38,7 +38,7 @@ const AllTravel = () => {
           style={{ width: "18%", height: "18%" }}
           alt="thumbnail"
           id="article"
-          className="me-1"
+          className="m-1"
         ></img>
         How to Travel With Your Dog: A Complete Guide to Hitting the Road With
         Your Pup
