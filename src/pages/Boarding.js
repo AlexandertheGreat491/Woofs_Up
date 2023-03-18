@@ -1,8 +1,10 @@
 // imports react
 import React from "react";
+
 // imports the image of a dog with sunglasses sitting on a suitcase
 // imports the image of a dog with sunglasses sitting on a suitcase
 import dogSuitcase from "../assets/images/dog_suitcase.JPG";
+
 // imports icons
 import { FaHouseUser } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
