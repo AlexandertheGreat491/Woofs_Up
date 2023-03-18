@@ -1,3 +1,4 @@
+// imports the useState hook
 import React, { useState } from "react";
 import { send } from "emailjs-com";
 import { FaDog } from "react-icons/fa";
