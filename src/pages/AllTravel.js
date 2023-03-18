@@ -1,11 +1,12 @@
 import React from "react";
+
 // imports icons
 // imports the book icon
 import { FaBookOpen } from "react-icons/fa";
+
 // imports the car icon
 import { FaCarSide } from "react-icons/fa";
-// // imports the plaine icon
-// import { FaPlaneDeparture } from "react-icons/fa";
+
 // imports the article image
 import guide from "../assets/images/guide.jpg";
 
