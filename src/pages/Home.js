@@ -1,8 +1,6 @@
 // imports react
 import React from "react";
 
-
-
 // imports the image for the about section
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
@@ -12,7 +10,6 @@ const Home = () => {
       <br></br>
       <h2 id="up" className="mt-1 mb-3 text-center">
         About Woofs Up
-        
       </h2>
 
       <div className="ms-5">
