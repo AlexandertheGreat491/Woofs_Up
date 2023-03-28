@@ -4,7 +4,7 @@ import React from "react";
 // imports the plane icon
 import { FaTelegramPlane } from "react-icons/fa";
 
-// imports the images
+// imports the image for the about section
 import drinkingHorse from ".//../assets/images/drinking_horse.jpg";
 
 const Home = () => {
