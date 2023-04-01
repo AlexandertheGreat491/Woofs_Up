@@ -321,12 +321,18 @@ nav a:hover {
   flex-direction: column;
   row-gap: 20px;
 }
+
 /* search bar heading styling */
 .friendly {
   margin: 10px;
   font-size: 40px;
   color: var(--primary);
 }
+
+.search {
+  width: 30%;
+}
+
 
 /* footer styling */
 footer {
