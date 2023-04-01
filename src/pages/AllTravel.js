@@ -33,6 +33,8 @@ const AllTravel = () => {
         className="mb-1"
         id="roadlink"
       >
+        How to Travel With Your Dog: A Complete Guide to Hitting the Road With
+        Your Pup
         <img
           src={guide}
           style={{ width: "20%", height: "20%" }}
@@ -40,8 +42,7 @@ const AllTravel = () => {
           id="article"
           className="m-3"
         ></img>
-        How to Travel With Your Dog: A Complete Guide to Hitting the Road With
-        Your Pup
+        
       </a>
     </div>
   );
