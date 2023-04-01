@@ -12,10 +12,7 @@ import guide from "../assets/images/guide.jpg";
 
 const AllTravel = () => {
   return (
-    <div
-      className="roadtrip m-3 p-4"
-      style={{ width: "45%", height: "60%" }}
-    >
+    <div className="roadtrip m-3 p-4" style={{ width: "45%", height: "60%" }}>
       <h1 id="road" className="ms-1">
         Roadtrips with your dog
         <FaCarSide className="ms-1" />
@@ -42,7 +39,6 @@ const AllTravel = () => {
           id="article"
           className="m-3"
         ></img>
-        
       </a>
     </div>
   );
