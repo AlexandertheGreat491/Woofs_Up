@@ -1,4 +1,8 @@
-import React from "react";
+import {React, useState} from "react";
+import TextField from "@mui/material/TextField";
+import List from "./Components/List"
+
+
 
 // imports icons
 // imports the book icon
@@ -40,7 +44,17 @@ const AllTravel = () => {
           className="m-3"
         ></img>
       </a>
-      
+<div className="mainsearch">
+  <h1>Dog Friendly Hotel Search</h1>
+  <div className="search">
+    <TextField
+    id="outlined-basic"
+    varient="outlined"
+    fullWidth
+    label="Search"
+     />
+  </div>
+</div>
     </div>
   );
 };
