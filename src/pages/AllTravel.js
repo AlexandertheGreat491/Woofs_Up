@@ -13,8 +13,8 @@ import guide from "../assets/images/guide.jpg";
 const AllTravel = () => {
   return (
     <div
-      className="roadtrip ms-1 me-2 mt-3"
-      style={{ width: "45%", height: "15%" }}
+      className="roadtrip m-3 p-4"
+      style={{ width: "45%", height: "60%" }}
     >
       <h1 id="road" className="ms-1">
         Roadtrips with your dog
