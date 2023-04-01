@@ -246,12 +246,14 @@ nav a:hover {
 
 /* roadtrips page styling */
 /* overall roadtrips styling */
+
 .roadtrip {
   background-color: var(--quarternary);
   border: 0.1875em groove var(--primary);
   border-radius: 4px;
   float: right;
 }
+
 /* h1 heading styling */
 #road {
   color: var(--tertiary);
@@ -260,6 +262,7 @@ nav a:hover {
   text-decoration: underline;
   text-align: center;
 }
+
 /* link styling */
 #roadlink {
   font-size: 0.8125em;
@@ -269,6 +272,7 @@ nav a:hover {
 #roadlink:hover {
   color: var(--background);
 }
+
 /* h2 heading styling */
 #roady {
   color: var(--tertiary);
@@ -276,6 +280,7 @@ nav a:hover {
   font-weight: 600;
   text-align: center;
 }
+
 /* p element styling */
 #puppy {
   color: var(--primary);
