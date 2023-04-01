@@ -325,7 +325,7 @@ nav a:hover {
 /* search bar heading styling */
 .friendly {
   margin: 10px;
-  font-size: 40px;
+  font-size: 1.25em;
   color: var(--primary);
 }
 
