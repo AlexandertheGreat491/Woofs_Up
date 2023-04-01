@@ -13,7 +13,7 @@ const Footer = () => {
         >
           <FaGithub />
         </a>
-        <span className="p-2">&copy; 2023 Alexander Van Dyke</span>
+        <span className="m-2">&copy; 2023 Alexander Van Dyke</span>
       </div>
     </footer>
   );
