@@ -1,6 +1,6 @@
-import {React, useState} from "react";
+import {React} from "react";
 import TextField from "@mui/material/TextField";
-import List from "./Components/List"
+import List from "../components/List/List.js"
 
 
 
@@ -54,6 +54,7 @@ const AllTravel = () => {
     label="Search"
      />
   </div>
+  <List/>
 </div>
     </div>
   );
