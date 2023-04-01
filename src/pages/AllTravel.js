@@ -45,7 +45,7 @@ const AllTravel = () => {
         ></img>
       </a>
 <div className="mainsearch">
-  <h1>Dog Friendly Hotel Search</h1>
+  <h1 className="friendly">Dog Friendly Hotel Search</h1>
   <div className="search">
     <TextField
     id="outlined-basic"
