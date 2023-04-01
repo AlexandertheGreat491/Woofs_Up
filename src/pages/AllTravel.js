@@ -35,7 +35,7 @@ const AllTravel = () => {
       >
         <img
           src={guide}
-          style={{ width: "18%", height: "18%" }}
+          style={{ width: "20%", height: "20%" }}
           alt="thumbnail"
           id="article"
           className="m-3"
