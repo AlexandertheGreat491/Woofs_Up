@@ -39,7 +39,8 @@ const AllTravel = () => {
       <div className="mainsearch">
         <h1 className="friendly m-1">Dog Friendly Hotel Search</h1>
         <div className="search">
-          <input></input>.
+          <input></input>
+          <button>Search Hotels</button>
         </div>
       </div>
     </div>
