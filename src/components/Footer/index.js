@@ -9,6 +9,7 @@ const Footer = () => {
         <a
           style={{ width: "20%", height: "20%" }}
           href="https://github.com/AlexandertheGreat491"
+          className="m-1"
         >
           <FaGithub />
         </a>
