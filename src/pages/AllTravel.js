@@ -1,7 +1,6 @@
 // imports react
 import { React } from "react";
 
-
 // imports icons
 
 // imports the car icon
