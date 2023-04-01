@@ -311,6 +311,8 @@ nav a:hover {
   color: var(--primary);
 }
 
+/* search bar styling */
+
 /* footer styling */
 footer {
   color: var(--tertiary);
