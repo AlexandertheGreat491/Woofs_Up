@@ -3,7 +3,7 @@ import React, {useState} from "react";
 // import components
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Travel from "./components/Travel";
+ import Travel from "./components/Travel";
 
 // imports pages
 import NoMatch from "./pages/NoMatch";

@@ -15,7 +15,7 @@ import Boarding from "../../pages/Boarding";
 // imports the Roadtrips page
 import Roadtrips from "../../pages/AllTravel";
 
-// Travel function to get return statement
+//Travel function to get return statement
 const TravelForm = () => {
   const [toSend, setToSend] = useState({
     from_name: "",

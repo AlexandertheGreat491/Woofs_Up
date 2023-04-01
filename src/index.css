@@ -315,7 +315,6 @@ nav a:hover {
 /* overall search bar styling */
 .mainsearch {
   display: flex;
-  height: 100vh;
   width: 100%;
   align-items: center;
   flex-direction: column;
@@ -324,13 +323,16 @@ nav a:hover {
 
 /* search bar heading styling */
 .friendly {
-  margin: 10px;
   font-size: 1.25em;
   color: var(--primary);
 }
 
 .search {
-  width: 30%;
+  width: 25%;
+}
+
+.list {
+  font-size: 15px;
 }
 
 /* footer styling */
