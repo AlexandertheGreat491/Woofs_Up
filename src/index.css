@@ -313,6 +313,15 @@ nav a:hover {
 
 /* search bar styling */
 
+.mainsearch {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
 /* footer styling */
 footer {
   color: var(--tertiary);
