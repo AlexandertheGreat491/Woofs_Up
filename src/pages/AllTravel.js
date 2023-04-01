@@ -40,6 +40,7 @@ const AllTravel = () => {
           className="m-3"
         ></img>
       </a>
+      
     </div>
   );
 };
