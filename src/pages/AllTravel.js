@@ -47,6 +47,8 @@ const AllTravel = () => {
           className="m-3"
         ></img>
       </a>
+      {/* search bar */}
+      {/* reference https://dev.to/salehmubashar/search-bar-in-react-js-545l */}
       <div className="mainsearch">
         <h1 className="friendly">Dog Friendly Hotel Search</h1>
         <div className="search">
