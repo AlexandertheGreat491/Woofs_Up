@@ -5,8 +5,6 @@ import TextField from "@mui/material/TextField";
 // imports the List component
 import List from "../components/List/List.js"
 
-
-
 // imports icons
 // imports the book icon
 import { FaBookOpen } from "react-icons/fa";
