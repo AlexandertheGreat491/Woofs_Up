@@ -1,11 +1,11 @@
 // imports react
-import {React} from "react";
+import { React } from "react";
 
 // imports the Material UI TextField component
 import TextField from "@mui/material/TextField";
 
 // imports the List component
-import List from "../components/List/List.js"
+import List from "../components/List/List.js";
 
 // imports icons
 // imports the book icon
@@ -47,18 +47,18 @@ const AllTravel = () => {
           className="m-3"
         ></img>
       </a>
-<div className="mainsearch">
-  <h1 className="friendly">Dog Friendly Hotel Search</h1>
-  <div className="search">
-    <TextField
-    id="outlined-basic"
-    varient="outlined"
-    fullWidth
-    label="Search"
-     />
-  </div>
-  <List/>
-</div>
+      <div className="mainsearch">
+        <h1 className="friendly">Dog Friendly Hotel Search</h1>
+        <div className="search">
+          <TextField
+            id="outlined-basic"
+            varient="outlined"
+            fullWidth
+            label="Search"
+          />
+        </div>
+        <List />
+      </div>
     </div>
   );
 };
