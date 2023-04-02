@@ -326,7 +326,7 @@ nav a:hover {
   font-size: 1.25em;
   color: var(--primary);
 }
-
+/* search bar styling */
 .search {
   width: 25%;
 }
