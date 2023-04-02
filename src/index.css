@@ -332,7 +332,7 @@ nav a:hover {
 }
 
 .searchbutton {
-  color: var(--primary);
+  font-weight: 650;
 }
 
 /* footer styling */
