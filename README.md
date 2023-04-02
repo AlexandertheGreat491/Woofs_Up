@@ -46,6 +46,8 @@ Sources:
 
 [The 15 Easiest Dogs to Travel With](https://www.newsweek.com/easiest-dogs-travel-terrier-retriever-1615584)
 
+[Buttons](https://react-bootstrap.github.io/components/buttons/)
+
 [CSS Opacity/Transparency](https://www.w3schools.com/css/css_image_transparency.asp)
 
 [CSS :hover effect not working when I set an ID to the paragraph](https://stackoverflow.com/questions/21705058/css-hover-effect-not-working-when-i-set-an-id-to-the-paragraph)
@@ -65,6 +67,8 @@ Sources:
 [react-google-forms-hooks](https://www.npmjs.com/package/react-google-forms-hooks)
 
 [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
+
+[React-Bootstrap Button Component](https://www.geeksforgeeks.org/react-bootstrap-button-component/)
 
 [Small Pets](https://www.tsa.gov/travel/security-screening/whatcanibring/items/small-pets)
 
