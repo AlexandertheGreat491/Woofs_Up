@@ -1,5 +1,7 @@
 // imports react
 import { React } from "react";
+// import ButtonGroup from "react-bootstrap/ButtonGroup";
+import Button from "react-bootstrap/Button";
 
 // imports icons
 
@@ -40,7 +42,7 @@ const AllTravel = () => {
         <h1 className="friendly m-1">Dog Friendly Hotel Search</h1>
         <div className="search">
           <input></input>
-          <button className="m-2">Search Hotels</button>
+        <Button variant="outline-info">Search Hotels</Button>{' '}
         </div>
       </div>
     </div>

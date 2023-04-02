@@ -331,10 +331,9 @@ nav a:hover {
   width: 25%;
 }
 
-.list {
-  font-size: 15px;
+.searchbutton {
+  color: var(--primary);
 }
-
 /* footer styling */
 footer {
   color: var(--tertiary);
