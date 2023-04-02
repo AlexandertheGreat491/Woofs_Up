@@ -45,7 +45,7 @@ const AllTravel = () => {
           <Button
             variant="outline-info"
             className="searchbutton ms-4 mt-2 mb-2 p-1"
-            style={{ width: "100%", height: "25%" }}
+            style={{ width: "100%", height: "30%" }}
           >
             Search Hotels
           </Button>{" "}
