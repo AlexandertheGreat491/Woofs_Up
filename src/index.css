@@ -334,6 +334,7 @@ nav a:hover {
 .searchbutton {
   color: var(--primary);
 }
+
 /* footer styling */
 footer {
   color: var(--tertiary);
