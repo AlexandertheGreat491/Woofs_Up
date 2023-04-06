@@ -16,7 +16,7 @@ const AllTravel = () => {
     <div className="roadtrip m-3 p-2" style={{ width: "45%", height: "5%" }}>
       <h1 id="road" className="ms-1">
         Roadtrips with your dog
-        <FaCarSide className="ms-1" />
+        <FaCarSide className="ms-2" />
       </h1>
       <h2 id="roady" className="ms-1">
         Plan Plan Plan
