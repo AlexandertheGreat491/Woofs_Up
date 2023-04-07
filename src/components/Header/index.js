@@ -1,6 +1,7 @@
 // imports packages for react application
 import React from "react";
 import { Link } from "react-router-dom";
+
 // imports the logo
 import woofsUpLogo from "..//../assets/images/LOGO.jpg";
 // imports the paw icon
