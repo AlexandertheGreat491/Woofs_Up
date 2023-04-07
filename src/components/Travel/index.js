@@ -1,4 +1,4 @@
-// imports the useState hook
+// imports react and the react hooks
 import React, { useState } from "react";
 
 // imports emailjs
