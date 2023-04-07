@@ -9,6 +9,7 @@
   "author": "Alex Van Dyke",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^3.12.0",
     "mongoose": "^7.0.3"
   }
 }
