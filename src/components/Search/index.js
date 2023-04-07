@@ -1,6 +1,6 @@
 // imports react and react hooks
 import React, { useState, useEffect } from "react";
-
+// reference https://www.freecodecamp.org/news/search-and-filter-component-in-reactjs/
 function Search() {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
