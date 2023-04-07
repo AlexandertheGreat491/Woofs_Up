@@ -1,3 +1,4 @@
+// imports react and react hooks
 import React, { useState, useEffect } from "react";
 
 function Search() {
