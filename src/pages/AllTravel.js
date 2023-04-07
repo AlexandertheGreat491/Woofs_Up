@@ -44,7 +44,7 @@ const AllTravel = () => {
           <input className="ms-1"></input>
           <Button
             variant="outline-info"
-            className="searchbutton ms-5 mt-2 mb-2 p-2"
+            className="searchbutton ms-5 mt-2 mb-2 mt-2 p-2"
           >
             Search Hotels
           </Button>{" "}
